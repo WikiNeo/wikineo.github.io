@@ -1,0 +1,16 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>
+Other Things
+</h2>
+
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+  一个人只拥有此生此世是不够的，他还应该拥有诗意的世界。
+  <a href="/other_posts">More</a>
+</p>
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  {% for post in site.categories.others limit: 6 %}
+  <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    {% include post-card.html %}
+  </div>
+  {% endfor %}
+</div>

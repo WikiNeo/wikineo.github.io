@@ -7,7 +7,7 @@ plugins:
   - jemoji
   - jekyll-paginate
 
-paginate: 30
+paginate: 20
 paginate_path: "/blog/page:num/"
 
 # permalink: /:year/:month/:day/:title/

@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Adapter"
-published: false
+published: true
 ---
 
 The adapter pattern allows us to access the functionality of an object using a

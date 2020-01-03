@@ -1,6 +1,6 @@
 ---
 title:  "Logic and Proofs"
-published: false
+published: true
 ---
 
 <script type="text/javascript" async
@@ -77,7 +77,30 @@ published: false
 <p>
     For the second statement, we give a proof by contraction. The conclusion of
     the proposition in this direction states that \(a = b\), so we assume that
-    \(a \neq b\). Heading off in search of a contradiction brings us to 
+    \(a \neq b\). Heading off in search of a contradiction brings us to a
+    consideration of the phrase "for every \(\epsilon\)." Some equivalent ways to
+    state the hypothesis would be to say that "for all possible choices of
+    \(epsilon > 0\)" or "no matter how \(\epsilon > 0\) is selected, it is always
+    the case that \(|a - b| < \epsilon\)." But assuming \(a \neq b\), the choice
+    of 
+    $$
+    \epsilon_0 = |a - b| > 0
+    $$
+    poses a serious problem. We are assuming that \(|a - b| < \epsilon\) is true
+    for every \(\epsilon > 0\), so this must certainly be true for the
+    particular \(\epsilon_0\) just defined. However, the statements
+    $$
+    \text{\(|a - b| < \epsilon_0\) and \(|a - b| = \epsilon_0\)}
+    $$
+    cannot both be true. This contradiction means that our initial assumption
+    that \(a \neq b\) is unacceptable. Therefore, \(a = b\), and the indirect
+    proof is complete.
+</p>
+
+<p>
+    One of the most fundamental skills required for reading and writing analysis
+    proofs is the ability to confidently manipulate the quantifying phrases "for
+    all" and "there exists." 
 </p>
 
 <p>

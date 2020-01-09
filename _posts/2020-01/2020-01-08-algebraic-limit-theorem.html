@@ -140,9 +140,46 @@ published: true
         </li>
         <li>
 
+            This final statement will follow from previous proof if we can prove
+            that
+            $$
+            (b_n) \to b \text{ implies } (\frac{1}{b_n}) \to \frac{1}{b}
+            $$
+            whenever \(b \neq 0\). We have
+            $$
+            |\frac{1}{b_n} - \frac{1}{b}| = \frac{|b - b_n|}{|b||b_n|}
+            $$
+            Because \((b_n) \to b\), we can make the preceding numerator as
+            small as we like by choosing \(n\) large. The problem comes in that
+            we need a worst-case estimate on the size of \(1/(|b||b_n|)\).
+            Because the \(b_n\) terms are in the denominator, we are no longer
+            interested in an upper bound on |b_n| but rather in an inequality of
+            the form \(|b_n| \geqslant \delta > 0\). This will then lead to a
+            bound on the size of \(1/(|b||b_n|)\)
+            <p>
+
+                The trick is to look far enough out into the sequence \(b_n\) so
+                that the terms are closer to b than they are to 0. Consider the
+                particular value \(\epsilon_0 = |b|/2\). Because \((b_n) \to
+                b\), there exists an \(N_1\) such that \(|b_n - b| < |b|/2\) for
+                all \(n \geqslant N_1\). This implies \(|b_n| > |b|/2\)
+            </p>
+            <p>
+                Next, choose \(N_2\) so that \(n \geqslant N_2\) implies
+                $$
+                |b_n - b| < \frac{\epsilon|b|^2}{2}
+                $$
+            </p>
+            <p>
+                Finally, if we let \(N = max\{N_1, N_2\}\), then \(n \geqslant
+                N\) implies 
+                $$
+                |\frac{1}{b_n} - \frac{1}{b}| = |b - b_n|\frac{1}{|b||b_n|}
+                < \frac{\epsilon|b|^2}{2}\frac{1}{|b|\frac{|b|}{2}} = \epsilon
+                $$
+            </p>
         </li>
     </ol>
-</p>
 
 <p>
     <b>References</b>: Understanding Analysis By Stephen Abbott

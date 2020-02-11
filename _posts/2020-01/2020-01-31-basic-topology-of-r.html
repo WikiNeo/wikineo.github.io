@@ -115,13 +115,38 @@ published: true
 <p>
     <b>Theorem 3.3.5 (Nested Compact Set Property)</b>. <i> If
         $$
-        K_1 \supseteq K_2 \supseteq K_3 \supseteq K_4 \supseteq \dot \dot \dot
+        K_1 \supseteq K_2 \supseteq K_3 \supseteq K_4 \supseteq \cdot \cdot \cdot
         $$
     is a nested sequence of nonempty compact sets, then the intersection
     \(\bigcap_{n=1}^\infty K_n\) is not empty
     </i>
 </p>
+<p>
+  <b>Definition 3.3.6</b> Let \(A \subseteq \mathbb{R}\). An <i>open cover</i>
+  for \(A\) is a (possibly finite) collection of open sets \(\{O_\lambda :
+  \lambda \in \Lambda\}\) whose union contains the set \(A\); that is, \(A
+  \subseteq \bigcup_{\lambda \in \Lambda} O_\lambda\). Given an open cover for
+  \(A\), a <i>finite subcover</i> is a finite subcollection of open sets from
+  the original open cover whose union still manages to completely contain \(A\).
+</p>
 
+<p>
+  <b>Theorem 3.3.8 (Heine-Borel Theorem)</b>. <i>
+    Let \(K\) be a subset of \(\mathbb{R}\). All of the following statements are
+    equivalent in the sense that any one of them implies the two others:
+    <ol>
+      <li>
+        \(K\) is compact
+      </li>
+      <li>
+        \(K\) is closed and bounded
+      </li>
+      <li>
+        Every open cover for \(K\) has a finite subcover.
+      </li>
+    </ol>
+  </i>
+</p>
 
 
 

@@ -1,6 +1,6 @@
 ---
 title:  "Functional Limit"
-published: false
+published: true
 ---
 
 <script type="text/javascript" async
@@ -30,12 +30,46 @@ published: false
         \(A\), the following two statements are equivalent:
         <ol>
             <li>
-
+                \(\lim\limits_{x \to c}f(x) = L\)
             </li>
             <li>
-
+                For all sequences \((x_n) \subseteq A\)  satisfying \(x_n \neq
+                c\) and \((x_n) \to c\), it follows that \(f(x_n) \to L\)
             </li>
         </ol>
+    </i>
+</p>
+<p>
+    <b>Corollary 4.2.4 (Algebraic Limit Theorem for Functional Limits)</b>. <i>
+        Let \(f\) and \(g\) be functions defined on a domain \(A \subseteq
+        \mathbb{R}\), and assume \(\lim_{x \to c}f(x) = L\) and \(\lim_{x \to
+        c}g(x) = M\) for some limit point \(c\) of \(A\). Then,
+        <ol>
+            <li>
+                \(\lim\limits_{x \to c}kf(x) = kL\) for all \(k \in \mathbb{R}\)
+            </li>
+            <li>
+                \(\lim\limits_{x \to c}[f(x) + g(x)] = L + M\)
+            </li>
+            <li>
+                \(\lim\limits_{x \to c}[f(x)g(x)] = LM\)
+            </li>
+            <li>
+                \(\lim\limits_{x \to c}f(x)/g(x) = L/M\)
+            </li>
+        </ol>
+    </i>
+</p>
+<p>
+    <b>Corollary 4.2.5 (Divergence Criterion for Functional Limits)</b>. <i>
+        Let \(f\) be a function defined on \(A\), and let \(c\) be a limit point
+        of \(A\). If there exists two sequence \((x_n)\) and \((y_n)\) in \(A\)
+        with \(x_n \neq c\) and \(y_n \neq c\) and
+        $$
+        \lim x_n = \lim y_n = c \text{ but } \lim f(x_n) \neq \lim f(y_n)
+        $$
+        then we can conclude that the functional limit \(\lim_{x \to c}f(x)\)
+        does not exist.
     </i>
 </p>
 

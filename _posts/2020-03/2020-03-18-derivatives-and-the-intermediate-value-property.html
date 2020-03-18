@@ -19,6 +19,50 @@ published: true
     \(g\) is differentiable on \(A\)
 </p>
 
+<p>
+  <b>Theorem 5.2.4 (Algebraic Differentiability Theorem).</b> <i>
+    Let \(f\) and \(g\) be functions defined on an interval \(A\), and assume
+    both are differentiable at some point \(c \in A\). Then,
+    <ol>
+      <li>
+        \((f + g)^\prime(c) = f^\prime(c) + g^\prime(c)\)
+      </li>
+      <li>
+        \((kf)^\prime(c) = kf^\prime(c)\), for all \(k \in \mathbb{R}\)
+      </li>
+      <li>
+        \((fg)^\prime(c) = f^\prime(c)g(c) + f(c)g^\prime(c)\)
+      </li>
+      <li>
+        \((f/g)^\prime(c) = \frac{f^\prime(c)g(c) - f(c)g^\prime(c)}{[g(c)]^2}
+        \), provided that \(g(c) \neq 0\)
+      </li>
+    </ol>
+  </i>
+</p>
+<p>
+  <b>Theorem 5.2.5 (Chain Rule).</b> <i>
+    Let \(f : A \to \mathbb{R}\) and \(g : B \to \mathbb{R}\) satisfy \(f(A)
+    \subseteq B\) so that the composition of \(g \circ f\) is defined. If \(f\)
+    is differentiable at \(c \in A\) and \(g\) is differentiable at \(f(c) \in
+    B\), then \(g \circ f\) is differentiable at \(c\) with \((g \circ
+    f)^\prime(c) = g^\prime(f(c)) \cdot f^\prime(c)\)
+  </i>
+</p>
+<p>
+  <b>Theorem 5.2.6 (Interior Extremum Theorem).</b> <i>
+    Let \(f\) be differentiable on an open interval \((a, b).\) if \(f\) attains
+    a maximum value at some point \(c \in (a, b)\), then \(f^\prime(c) = 0\).
+    The same is true if \(f(c)\) is a minimum value.
+  </i>
+</p>
+<p>
+  <b>Theorem 5.2.7 (Darboux's Theorem).</b> <i>
+    If \(f\) is differentiable on an interval \([a, b]\), and if \(\alpha\)
+    satisfies \(f^\prime(a) < \alpha < f^\prime(b)\), then there exists a point
+    \(c \in (a, b)\) where \(f^\prime(c) = \alpha\)
+  </i>
+</p>
 
 <p>
     <b>References</b>: Understanding Analysis By Stephen Abbott

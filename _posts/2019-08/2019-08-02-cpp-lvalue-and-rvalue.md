@@ -1,7 +1,6 @@
 ---
 title:  "Understanding the meaning of lvalues and rvalues in C++"
 published: true
-categories: tech
 tags: C++
 ---
 

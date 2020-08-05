@@ -1,7 +1,6 @@
 ---
 title:  "C++ Value Categories"
 published: true
-categories: tech
 tags: C++
 ---
 

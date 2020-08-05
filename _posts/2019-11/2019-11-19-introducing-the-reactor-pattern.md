@@ -1,6 +1,7 @@
 ---
 title: "Introducing the Reactor Pattern"
 published: true
+tags: DesignPattern
 ---
 
 The main idea behind reactor pattern is to have a handler (which in Node.js is

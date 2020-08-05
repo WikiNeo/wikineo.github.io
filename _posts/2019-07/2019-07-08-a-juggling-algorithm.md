@@ -1,7 +1,6 @@
 ---
 title:  "A Juggling Algorithm"
 published: true
-categories: tech
 tags: Algorithm
 ---
 

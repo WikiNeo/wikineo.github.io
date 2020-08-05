@@ -1,7 +1,6 @@
 ---
 title:  "C++ Questions"
 published: true
-categories: tech
 tags: C++
 ---
 

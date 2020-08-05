@@ -1,7 +1,6 @@
 ---
 title:  "C++ Reference Declaration"
 published: true
-categories: tech
 tags: C++
 ---
 

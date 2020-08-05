@@ -1,7 +1,6 @@
 ---
 title:  "C++ Storage Class Specifiers"
 published: true
-categories: tech
 tags: C++
 ---
 

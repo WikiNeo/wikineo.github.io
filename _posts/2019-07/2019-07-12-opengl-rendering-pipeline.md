@@ -1,7 +1,6 @@
 ---
 title:  "OpenGL Rendering Pipeline"
 published: false
-categories: tech
 tags: OpenGL
 ---
 

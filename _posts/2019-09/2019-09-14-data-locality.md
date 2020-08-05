@@ -1,6 +1,7 @@
 ---
 title:  "Game Programming Patterns - Optimization Patterns - Data Locality"
 published: true
+tags: DesignPattern
 ---
 
 ## Intent

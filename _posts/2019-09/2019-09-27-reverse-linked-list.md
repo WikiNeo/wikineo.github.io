@@ -1,6 +1,7 @@
 ---
 title: "Reverse Linked List"
 published: true
+tags: Algorithm
 ---
 
 Reverse a singly linked list.

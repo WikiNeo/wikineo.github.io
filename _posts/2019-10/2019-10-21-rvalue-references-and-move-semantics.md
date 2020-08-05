@@ -1,6 +1,7 @@
 ---
 title:  "C++ rvalue references and move semantics for beginners"
 published: true
+tags: C++
 ---
 
 The logic behind *rvalues* is that in C++ you will find such temporary, short-lived values

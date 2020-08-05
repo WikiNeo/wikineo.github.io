@@ -1,6 +1,7 @@
 ---
 title: "Node.js setTimeout vs setImmediate"
 published: true
+tags: Node.js
 ---
 
 `setImmediate()` is equivalent to `setTimeout(fn, 0)`, but with some slight advantages.

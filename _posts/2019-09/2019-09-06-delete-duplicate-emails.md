@@ -1,6 +1,7 @@
 ---
 title: "Delete Duplicate Emails"
 published: true
+tags: MySQL
 ---
 
 Write a SQL query to delete all duplicate email entries in a table named Person, keeping only unique emails based on its smallest Id.

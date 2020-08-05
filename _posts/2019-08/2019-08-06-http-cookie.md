@@ -1,6 +1,7 @@
 ---
 title:  "HTTP cookie"
 published: true
+tags: Network
 ---
 
 An **HTTP cookie** (also called **web cookie, internet cookie, browser cookie,** or

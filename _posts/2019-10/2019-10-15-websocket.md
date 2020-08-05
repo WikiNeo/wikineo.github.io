@@ -1,6 +1,7 @@
 ---
 title: "WebSocket"
 published: true
+tags: Network
 ---
 
 The `WebSocket` protocol, described in the specification [RFC

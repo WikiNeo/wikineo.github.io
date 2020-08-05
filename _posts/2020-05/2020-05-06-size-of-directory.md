@@ -1,6 +1,7 @@
 ---
 title: "How to get the total size of a directory from the command line"
 published: true
+tags: Ubuntu
 ---
 
 The command `du` "Summarizes disk usage of each FILE, recursively for

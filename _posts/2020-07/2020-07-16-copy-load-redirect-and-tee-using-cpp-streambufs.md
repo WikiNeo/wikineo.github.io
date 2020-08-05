@@ -1,6 +1,7 @@
 ---
 title: "Copy, load, redirect and tee using C++ streambufs"
 published: true
+tags: C++
 ---
 
 ## Copy streams

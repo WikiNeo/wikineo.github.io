@@ -1,6 +1,7 @@
 ---
 title:  "人间词话-十（节选）"
 published: true
+tags: 古诗文
 ---
 
 太白纯以气象胜。

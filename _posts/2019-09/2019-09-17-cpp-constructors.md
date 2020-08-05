@@ -1,6 +1,7 @@
 ---
 title:  "Some Notes on C++ Constructors"
 published: true
+tags: C++
 ---
 
 1. The followings are automatically added to every class, if we do not write our own.

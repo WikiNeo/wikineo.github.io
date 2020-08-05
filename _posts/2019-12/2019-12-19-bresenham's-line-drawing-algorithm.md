@@ -1,6 +1,7 @@
 ---
 title: "Lesson 1: Bresenham's Line Drawing Algorithm"
 published: true
+tags: OpenGL
 ---
 
 ## First attempt

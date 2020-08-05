@@ -1,6 +1,7 @@
 ---
 title: "Single Responsibility Principle"
 published: true
+tags: DesignPattern
 ---
 
 The single responsibility principle is a computer programming principle that

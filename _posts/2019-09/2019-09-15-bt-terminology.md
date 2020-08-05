@@ -1,6 +1,7 @@
 ---
 title:  "Binary Trees Terminology"
 published: true
+tags: Algorithm
 ---
 
 - **leaves**: nodes with no children.

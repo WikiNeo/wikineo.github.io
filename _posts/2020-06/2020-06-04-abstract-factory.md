@@ -1,6 +1,7 @@
 ---
 title: "Creational-Abstract-Factory"
 published: true
+tags: DesignPattern
 ---
 
 Abstract factory pattern has creational purpose and provides an interface for

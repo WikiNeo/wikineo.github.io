@@ -1,6 +1,7 @@
 ---
 title:  "Strategy Pattern"
 published: true
+tags: DesignPattern
 ---
 
 ## It started with a simple SimUDuck app

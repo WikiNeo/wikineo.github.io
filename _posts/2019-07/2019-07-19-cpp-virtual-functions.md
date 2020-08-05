@@ -1,7 +1,6 @@
 ---
 title:  "C++ Virtual Functions"
 published: true
-categories: tech
 tags: C++
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Axis-aligned Bounding Boxes"
 published: true
+tags: OpenGL
 ---
 
 ## Axis-aligned Bounding Boxes (AABBs)

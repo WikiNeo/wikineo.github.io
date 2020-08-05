@@ -1,6 +1,7 @@
 ---
 title: "iNES file format"
 published: true
+tags: Game
 ---
 
 The iNES file format was originally defined by Marat Fayzullin for use in his

@@ -1,7 +1,6 @@
 ---
 title:  "C++ Named Requirements Basic"
 published: false
-categories: tech
 tags: C++
 ---
 

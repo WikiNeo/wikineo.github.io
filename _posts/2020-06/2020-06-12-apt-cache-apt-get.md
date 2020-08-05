@@ -1,6 +1,7 @@
 ---
 title: "apt-cache & apt-get"
 published: true
+tags: Ubuntu
 ---
 
 ## List all available packages

@@ -1,6 +1,7 @@
 ---
 title:  "Review of Assassin's Creed Odyssey from Steam"
 published: true
+tags: Game
 ---
 
 ![Review of Assassin's Creed Odyssey from Steam](/../../assets/Steam-AC-Odyssey-Review.png)

@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Strategy"
 published: false
+tags: Node.js
 ---
 
 The Strategy pattern enables an object, called the *Context*, to support

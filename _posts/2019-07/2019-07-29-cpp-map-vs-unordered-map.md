@@ -1,7 +1,6 @@
 ---
 title:  "C++ map vs unordered_map"
 published: true
-categories: tech
 tags: C++
 ---
 

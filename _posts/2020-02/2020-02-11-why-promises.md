@@ -1,6 +1,7 @@
 ---
 title: "Bluebird - Why Promises?"
 published: true
+tags: Node.js
 ---
 
 You should use promises to turn this:

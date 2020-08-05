@@ -1,7 +1,7 @@
 ---
 title:  "OpenGL Lighting"
 published: true
-categories: tech
+tags: OpenGL
 ---
 
 # Colors

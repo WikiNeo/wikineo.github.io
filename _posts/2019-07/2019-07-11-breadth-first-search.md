@@ -1,7 +1,6 @@
 ---
 title:  "Breadth-First Search"
 published: true
-categories: tech
 tags: Algorithm
 ---
 

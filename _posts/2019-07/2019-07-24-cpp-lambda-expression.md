@@ -1,7 +1,6 @@
 ---
 title:  "C++ Lambda Expression"
 published: true
-categories: tech
 tags: C++
 ---
 

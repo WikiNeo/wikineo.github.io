@@ -1,7 +1,6 @@
 ---
 title:  "OpenGL Libraries"
 published: true
-categories: tech
 tags: OpenGL
 ---
 

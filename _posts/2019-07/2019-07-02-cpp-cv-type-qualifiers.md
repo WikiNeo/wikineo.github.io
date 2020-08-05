@@ -1,7 +1,6 @@
 ---
 title:  "C++ CV(const and volatile) type qualifiers"
 published: false
-categories: tech
 tags: C++
 ---
 

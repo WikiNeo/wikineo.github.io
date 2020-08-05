@@ -1,6 +1,7 @@
 ---
 title: "Knight's Tour"
 published: true
+tags: Algorithm
 ---
 
 A **knight's tour** is a sequence of moves of a knight on a chessboard such that the

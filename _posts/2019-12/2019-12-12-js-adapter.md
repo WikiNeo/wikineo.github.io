@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Adapter"
 published: true
+tags: Node.js
 ---
 
 The adapter pattern allows us to access the functionality of an object using a

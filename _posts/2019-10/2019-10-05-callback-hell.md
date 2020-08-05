@@ -1,6 +1,7 @@
 ---
 title: "Managing Node.js Callback Hell with Promises, Generators and Other Approaches"
 published: true
+tags: Node.js
 ---
 
 ## The problem

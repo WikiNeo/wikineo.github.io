@@ -1,7 +1,7 @@
 ---
 title:  "C++ Rvalue References"
 published: true
-categories: tech
+tags: C++
 ---
 
 ### Definition of lvalue and rvalue

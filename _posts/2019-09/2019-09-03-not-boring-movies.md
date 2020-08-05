@@ -1,6 +1,7 @@
 ---
 title: "Duplicate Emails"
 published: true
+tags: MySQL
 ---
 
 X city opened a new cinema, many people would like to go to this cinema. The cinema also gives out a poster indicating the movies’ ratings and descriptions.

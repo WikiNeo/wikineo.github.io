@@ -1,7 +1,6 @@
 ---
 title:  "C++ Virtual Base Class"
 published: true
-categories: tech
 tags: C++
 ---
 

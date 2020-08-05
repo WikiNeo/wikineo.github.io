@@ -1,6 +1,7 @@
 ---
 title: "Async/await"
 published: true
+tags: Node.js
 ---
 
 ## Async functions

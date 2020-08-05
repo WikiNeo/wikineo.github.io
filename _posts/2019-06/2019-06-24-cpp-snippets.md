@@ -1,7 +1,6 @@
 ---
 title:  "C++ Snippets"
 published: true
-categories: tech
 tags: C++
 ---
 

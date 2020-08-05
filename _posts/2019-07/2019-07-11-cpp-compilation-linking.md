@@ -1,7 +1,6 @@
 ---
 title:  "C++ Compilation and Linking"
 published: true
-categories: tech
 tags: C++
 ---
 

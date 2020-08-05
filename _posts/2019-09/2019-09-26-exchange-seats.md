@@ -1,6 +1,7 @@
 ---
 title: "Exchange Seats"
 published: true
+tags: MySQL
 ---
 
 Mary is a teacher in a middle school and she has a table seat storing students' names and their corresponding seat ids.

@@ -1,7 +1,6 @@
 ---
 title:  "Rule of three (C++ programming)"
 published: true
-categories: tech
 tags: C++
 ---
 

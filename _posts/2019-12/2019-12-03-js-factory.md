@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Factory Design Pattern"
 published: true
+tags: Node.js
 ---
 
 ## A generic interface for creating objects

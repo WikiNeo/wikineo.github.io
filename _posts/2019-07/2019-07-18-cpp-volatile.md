@@ -1,7 +1,6 @@
 ---
 title:  "C++ Volatile Keyword"
 published: true
-categories: tech
 tags: C++
 ---
 

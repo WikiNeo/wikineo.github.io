@@ -1,6 +1,7 @@
 ---
 title:  "TCP Connection Establishment and Termination"
 published: true
+tags: Network
 ---
 
 ## Connection establishment

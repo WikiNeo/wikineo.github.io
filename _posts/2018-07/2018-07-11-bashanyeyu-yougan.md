@@ -1,7 +1,7 @@
 ---
 title:  "巴山夜雨有感"
 published: true
-categories: others
+tags: 随笔
 ---
 
 # 2018-07-11 22:15、杭州、晴、周三

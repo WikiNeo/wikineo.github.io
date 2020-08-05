@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Decorator"
 published: true
+tags: Node.js
 ---
 
 Decorator is a structural pattern that consists of dynamically augmenting the

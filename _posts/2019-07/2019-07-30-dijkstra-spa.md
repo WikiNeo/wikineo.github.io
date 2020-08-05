@@ -1,7 +1,6 @@
 ---
 title:  "Dijkstra's Shortest Path Algorithm"
 published: false
-categories: tech
 tags: Algorithm
 ---
 

@@ -1,7 +1,6 @@
 ---
 title:  "Internet Protocol Suite"
 published: true
-categories: tech
 tags: Network
 ---
 

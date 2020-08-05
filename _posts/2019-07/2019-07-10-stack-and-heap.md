@@ -1,7 +1,7 @@
 ---
 title:  "Stack and Heap"
 published: true
-categories: tech
+tags: Algorithm
 ---
 
 ## What and where are the stack and heap?

@@ -1,6 +1,7 @@
 ---
 title: "attr_accessor in Ruby"
 published: true
+tags: Ruby
 ---
 
 Let's say you have a class `Person`

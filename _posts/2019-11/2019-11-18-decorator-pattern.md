@@ -1,6 +1,7 @@
 ---
 title: "Decorator Pattern"
 published: true
+tags: DesignPattern
 ---
 
 In object-oriented programming, the decorator pattern is a design pattern that

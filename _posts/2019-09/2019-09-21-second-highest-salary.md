@@ -1,6 +1,7 @@
 ---
 title: "Second Highest Salary"
 published: true
+tags: MySQL
 ---
 
 Write a SQL query to get the second highest salary from the Employee table.

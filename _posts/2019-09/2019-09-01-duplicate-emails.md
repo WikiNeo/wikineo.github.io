@@ -1,6 +1,7 @@
 ---
 title: "Duplicate Emails"
 published: true
+tags: MySQL
 ---
 
 Write a SQL query to find all duplicate emails in a table named Person.

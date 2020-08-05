@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Composable Factory Functions"
 published: true
+tags: Node.js
 ---
 
 Composable factory functions represents a particular type of factory function

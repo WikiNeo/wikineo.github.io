@@ -1,6 +1,7 @@
 ---
 title: "The Recipe for Node.js"
 published: true
+tags: Node.js
 ---
 
 The reactor pattern and libuv and the basic building blocks of Node.js but we

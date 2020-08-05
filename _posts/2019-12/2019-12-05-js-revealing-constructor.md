@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Revealing Constructor"
 published: true
+tags: Node.js
 ---
 
 ```javascript

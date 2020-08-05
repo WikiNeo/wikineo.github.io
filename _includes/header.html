@@ -18,6 +18,11 @@
   {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
+{% if site.tags != "" %}
+{% include collecttags.html %}
+{% endif %}
+
+
 <!doctype html>
 <html class="min-height-full">
   <head>

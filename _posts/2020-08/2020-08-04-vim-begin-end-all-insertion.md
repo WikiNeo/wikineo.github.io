@@ -1,6 +1,7 @@
 ---
 title: "Vim Insert at the Beginning/End of Lines"
 published: true
+tags: Vim
 ---
 
 ## Beginning

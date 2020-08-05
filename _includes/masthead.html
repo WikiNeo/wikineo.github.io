@@ -1,30 +1,17 @@
-<div class="f4 mb-6">
-  <ul>
-    <li>Real Analysis
-      <ul>
-        <li>
-          <a href="{{site.baseurl}}/2020/01/17/the-real-numbers.html">The Real Numbers</a>
-        </li>
-        <li>
+<h2>Tags</h2>
 
-          <a href="{{site.baseurl}}/2020/01/17/sequences-and-series.html">Sequences
-            and Series</a>
-        </li>
-        <li>
-          <a href="{{site.baseurl}}/2020/01/31/basic-topology-of-r.html">Basic
-            Topology of R</a>
-        </li>
-        <li>
-          <a
-                  href="{{site.baseurl}}/2020/03/18/functional-limits-and-continuity.html">Functional
-            Limits and Continuity</a>
-        </li>
-        <li>
-          <a
-                  href="{{site.baseurl}}/2020/03/19/the-derivative.html">The Derivative</a>
-        </li>
-      </ul>
+{% capture temptags %}
+    {% for tag in site.tags %}
+        {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+    {% endfor %}
+{% endcapture %}
+
+{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+
+{% for temptag in sortedtemptags %}
+    {% assign tagitems = temptag | split: '#' %}
+    {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+    <li>
+        <a href="/tag/{{ tagname }}">{{ tagname }}</a>
     </li>
-  </ul>
-</div>
-
+{% endfor %}

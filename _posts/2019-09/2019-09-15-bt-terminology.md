@@ -1,7 +1,7 @@
 ---
 title:  "Binary Trees Terminology"
 published: true
-tags: DataStructure BinaryTree
+tags: Algorithm
 ---
 
 - **leaves**: nodes with no children.

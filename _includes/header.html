@@ -8,8 +8,6 @@
 
 {% assign posts_total = site.posts | size %}
 
-{% assign user = site.github.owner %}
-
 {% if page.path contains '_posts' %}
   {% assign page_title = page.title %}
   {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}

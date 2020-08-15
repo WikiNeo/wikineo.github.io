@@ -8,8 +8,10 @@ docker-compose up
 
 ## Generate Tags
 
+Note the extra `/` for Windows
+
 ```bash
-docker run --rm -v //g/Code/ruby-project/mintwzy.github.io://usr/src/app -w //usr/src/app python:3 python tag_generator.py
+docker run --rm -v /"$PWD"://usr/src/app -w //usr/src/app python:3 python tag_generator.py
 ```
 
 ## References

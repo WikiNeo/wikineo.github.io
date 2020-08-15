@@ -3,13 +3,13 @@
 ## Start
 
 ```bash
-bundle exec jekyll serve
+docker-compose up
 ```
 
 ## Generate Tags
 
 ```bash
-python3 tag_generator.py
+docker run --rm -v //g/Code/ruby-project/mintwzy.github.io://usr/src/app -w //usr/src/app python:3 python tag_generator.py
 ```
 
 ## References

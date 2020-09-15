@@ -1,7 +1,7 @@
 ---
 title:  "一艘船孤独地航行在海上"
 published: true
-tags: 摘抄
+tags: 诗文随笔
 ---
 
 一艘船孤独地航行在海上，

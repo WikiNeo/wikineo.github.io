@@ -1,7 +1,7 @@
 ---
 title:  "Purpose of Reading"
 published: true
-tags: 摘抄
+tags: 诗文随笔
 ---
 
 ### 读书的意义 2019-02-27 21:25

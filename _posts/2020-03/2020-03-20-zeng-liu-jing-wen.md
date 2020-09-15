@@ -1,7 +1,7 @@
 ---
 title: "赠刘景文-苏轼"
 published: true
-tags: 古诗文
+tags: 诗文随笔
 ---
 
 > 荷尽已无擎雨盖，菊残犹有傲霜枝。

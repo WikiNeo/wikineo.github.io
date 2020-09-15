@@ -1,7 +1,7 @@
 ---
 title:  "人间词话-三"
 published: true
-tags: 古诗文
+tags: 诗文随笔
 ---
 
 有有我之境，有无我之境。

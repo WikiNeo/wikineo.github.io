@@ -1,7 +1,7 @@
 ---
 title:  "我爱你-余秀华"
 published: true
-tags: 摘抄
+tags: 诗文随笔
 ---
 
 巴巴地活着，每天打水，煮饭，按时吃药

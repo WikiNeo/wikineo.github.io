@@ -1,7 +1,7 @@
 ---
 title: "题都城南庄-崔护"
 published: true
-tags: 古诗文
+tags: 诗文随笔
 ---
 
 > 去年今日此门中，人面桃花相映红。

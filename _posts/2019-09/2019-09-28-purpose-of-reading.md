@@ -1,7 +1,7 @@
 ---
 title: "读书的意义"
 published: true
-tags: 摘抄
+tags: 诗文随笔
 ---
 
 想起在知乎翻到的问题[读书早晚会忘，为什么还要读书？](https://www.zhihu.com/question/26978967/answer/349935353)

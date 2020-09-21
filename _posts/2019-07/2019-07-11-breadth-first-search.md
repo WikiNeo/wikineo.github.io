@@ -30,7 +30,7 @@ def BFS(G, start_v):
 
 ### More details
 
-This non-recursive implementation is similar tothe non-recursive implementation of
+This non-recursive implementation is similar to the recursive implementation of
 depath-first search, but differs from it in two ways:
 
 1. it uses a queue (First In First Out) instead of a stack

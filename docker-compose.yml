@@ -5,5 +5,11 @@ services:
     image: bretfisher/jekyll-serve
     volumes:
       - .:/site
+      - bundle_path:/bundle
+    environment:
+    - BUNDLE_PATH=/bundle/vendor
     ports:
       - '4000:4000'
+
+volumes:
+  bundle_path:

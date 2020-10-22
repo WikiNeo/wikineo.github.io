@@ -1,7 +1,7 @@
 ---
 title:  "You smell wonderful"
 published: true
-tags: Game
+tags: Gaming
 ---
 
 *Geralt*: "You smell wonderful...."

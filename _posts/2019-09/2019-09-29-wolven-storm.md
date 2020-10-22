@@ -1,7 +1,7 @@
 ---
 title: "Wolven Storm"
 published: true
-tags: Game
+tags: Gaming
 ---
 
 These scars long have yearned for your tender cares. To bind our fortunes, damn what the stars own

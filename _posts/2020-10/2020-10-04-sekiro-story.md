@@ -1,7 +1,7 @@
 ---
 title: "只狼：影逝二度故事"
 published: true
-tags: 诗文随笔
+tags: Gaming
 ---
 
 《只狼》讲述了一群企图恢复生死轮回，断绝不死诅咒的奋斗者的故事。

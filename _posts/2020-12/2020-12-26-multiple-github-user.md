@@ -4,7 +4,7 @@ published: true
 tags: Git
 ---
 
-Generate SSH key
+## Generate SSH key
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -14,9 +14,15 @@ OR
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-```shell
-~/.ssh/config
+## Add SSH key to Github
 
+```
+Settings/SSH and GPG keys
+```
+
+## .ssh/config
+
+```shell
 Host github.com
   HostName github.com
   User mintwzy
@@ -25,12 +31,11 @@ Host github.com2
   HostName github.com
   User trusty-patches-mint
   IdentityFile ~/.ssh/id_ed25519
-
 ```
 
-```shell
-REPO/.git/config
+## REPO/.git/config
 
+```shell
 [core]
         repositoryformatversion = 0
         filemode = true

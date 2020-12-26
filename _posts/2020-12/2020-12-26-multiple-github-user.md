@@ -4,6 +4,16 @@ published: true
 tags: Git
 ---
 
+Generate SSH key
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+OR
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 ```shell
 ~/.ssh/config
 

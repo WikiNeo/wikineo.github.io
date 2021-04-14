@@ -47,7 +47,9 @@
     </div>
   </div>
 {% else %}
-  <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
+  <div class="d-md-flex min-height-full {% unless site.style == 'dark'%}border-md-bottom{% endunless %}">
+
+    <!-- Left tag list -->
     <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
       {% include masthead.html metadata=true %}
     </div>
@@ -56,18 +58,30 @@
       <div class="mx-auto" style="max-width: 900px;">
         <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
+
+            <!-- back to home link -->
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
+
+            <!-- page title -->
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
-            <p class="{% if site.style == 'dark' %}text-white{% else
-            %}text-gray{% endif %} mb-5">
+
+            <!-- publish info & tag/tags -->
+            <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">
               Published {{ page.date | date: "%b %d, %Y"}}
               <span>[
               {% for tag in page.tags %}
+                <!-- 
+                  capture
+                    Captures the string inside of the opening and closing tags and assigns it to a variable. Variables created through capture are strings.
+                 -->
                 {% capture tag_name %}{{ tag }}{% endcapture %}
+                <!-- tag link -->
                 <a href="/tag/{{ tag_name }}">&nbsp<code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
               {% endfor %}
               ]</span>
             </p>
+
+            <!-- the post content -->
             {{ post_body }}
           </div>
         </div>

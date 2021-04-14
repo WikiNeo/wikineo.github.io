@@ -16,11 +16,12 @@
   {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
+<!-- include our site.tags collector here -->
 {% if site.tags != "" %}
-{% include collecttags.html %}
+  {% include collecttags.html %}
 {% endif %}
 
-
+<!-- Note this includes opening tags -->
 <!doctype html>
 <html class="min-height-full">
   <head>

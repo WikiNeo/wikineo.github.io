@@ -1,6 +1,5 @@
 ---
-title: 'Fix "_mysql.c:44:10: fatal error: 'my_config.h' file not found" when
-installing mysql-python on MacOS'
+title: 'Fix "_mysql.c:44:10: fatal error: my_config.h file not found" when installing mysql-python on MacOS'
 published: true
 tags: MacOS
 ---

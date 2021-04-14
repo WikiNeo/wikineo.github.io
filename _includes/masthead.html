@@ -1,17 +1,38 @@
+<!-- 
+    This is the page for left tags list
+ -->
 <h2>Tags</h2>
 
+<!-- 
+    Generate temptags variable with defined format
+
+    1xxx#tag#xxx
+ -->
 {% capture temptags %}
     {% for tag in site.tags %}
         {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
     {% endfor %}
 {% endcapture %}
 
+<!-- 
+    Sort above temptags in descending order
+ -->
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
 
-{% for temptag in sortedtemptags %}
+{% for temptag in sortedtemptags %} 
+    <!-- 
+        tagitems like
+        1xxx#tag#xxx
+     -->
     {% assign tagitems = temptag | split: '#' %}
+    <!-- 
+        get tagname & tagsize
+     -->
     {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
     {% capture tagsize %}{{ tagitems[2] }}{% endcapture %}
+    <!-- 
+        Show them
+     -->
     <li>
         <a href="/tag/{{ tagname }}">{{ tagname }} ({{tagsize}})</a>
     </li>

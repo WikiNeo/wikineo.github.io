@@ -1,6 +1,6 @@
 ---
 title: 'Jekyll Tags on Github Page'
-published: true
+published: false
 tags: Web
 ---
 
@@ -30,7 +30,7 @@ We need a list named `site.tags`. We will use
 
 In the `_includes` folder, add an html file called `collecttags.html`
 
-```html
+```markdown
 {% assign rawtags = "" %}
 {% for post in site.posts %}
   {% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -55,7 +55,7 @@ In the `_includes` folder, add an html file called `collecttags.html`
 
 Insert the folllowing to `_includes/head.html`
 
-```html
+```markdown
 {% if site.tags != "" %}
   {% include collecttags.html %}
 {% endif %}
@@ -65,7 +65,7 @@ Insert the folllowing to `_includes/head.html`
 
 Add the following to `_layouts/post`
 
-```html
+```markdown
 <span>[
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -82,7 +82,7 @@ Clicking on the tag should navigate to a tag page.
 
 `_layouts/tagpage.html`
 
-```html
+```markdown
 ---
 layout: default
 ---

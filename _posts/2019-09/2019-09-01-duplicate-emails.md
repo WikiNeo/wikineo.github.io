@@ -1,5 +1,5 @@
 ---
-title: "Duplicate Emails"
+title: "[LeetCode 182] Duplicate Emails"
 published: true
 tags: MySQL
 ---
@@ -38,7 +38,7 @@ reduces the number of rows in the result set.
 SELECT Email FROM Person GROUP BY Email HAVING COUNT(Email) > 1;
 ```
 
-References:
+## References
 
-- [https://leetcode-cn.com/problems/duplicate-emails](https://leetcode-cn.com/problems/duplicate-emails)
+- [https://leetcode.com/problems/duplicate-emails](https://leetcode.com/problems/duplicate-emails)
 - [http://www.mysqltutorial.org/mysql-group-by.aspx](http://www.mysqltutorial.org/mysql-group-by.aspx)

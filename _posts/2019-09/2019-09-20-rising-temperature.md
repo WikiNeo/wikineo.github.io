@@ -1,5 +1,5 @@
 ---
-title: "Rising Temperature"
+title: "[LeetCode 197] Rising Temperature"
 published: true
 tags: MySQL
 ---
@@ -36,7 +36,12 @@ For example, return the following Ids for the above Weather table:
 ## Code
 
 ```SQL
-SELECT w2.Id FROM Weather as w1 JOIN Weather as w2 ON DATEDIFF(w2.RecordDate, w1.RecordDate) = 1 AND w2.Temperature > w1.Temperature;
+SELECT
+    w2.Id 
+FROM Weather as w1 
+    JOIN Weather as w2 ON DATEDIFF(w2.RecordDate, w1.RecordDate) = 1 AND w2.Temperature > w1.Temperature;
 ```
 
-References: [https://leetcode-cn.com/problems/rising-temperature/](https://leetcode-cn.com/problems/rising-temperature/)
+## References
+
+- [https://leetcode.com/problems/rising-temperature/](https://leetcode.com/problems/rising-temperature/)

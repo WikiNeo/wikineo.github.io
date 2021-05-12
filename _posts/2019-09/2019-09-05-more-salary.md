@@ -1,5 +1,5 @@
 ---
-title: "Employees Earning More Than Their Managers"
+title: "[LeetCode 181] Employees Earning More Than Their Managers"
 published: true
 tags: MySQL
 ---
@@ -34,11 +34,13 @@ Given the `Employee` table, write a SQL query that finds out employees who earn 
 ## Code
 
 ```SQL
-SELECT employee.Name AS Employee 
-    FROM Employee as employee JOIN Employee as manager 
-    ON employee.ManagerId = manager.Id AND employee.Salary > manager.Salary;
+SELECT 
+    employee.Name AS Employee 
+FROM Employee as employee 
+    JOIN Employee as manager 
+        ON employee.ManagerId = manager.Id AND employee.Salary > manager.Salary;
 ```
 
-References:
+## References
 
-- [https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/)
+- [https://leetcode.com/problems/employees-earning-more-than-their-managers/](https://leetcode.com/problems/employees-earning-more-than-their-managers/)

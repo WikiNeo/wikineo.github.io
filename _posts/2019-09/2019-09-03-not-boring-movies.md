@@ -1,5 +1,5 @@
 ---
-title: "Duplicate Emails"
+title: "[LeetCode 620] Not Boring Movies"
 published: true
 tags: MySQL
 ---
@@ -42,6 +42,6 @@ should output
 SELECT * FROM cinema WHERE (id & 1 AND description != 'boring') ORDER BY rating DESC;
 ```
 
-References:
+## References
 
-- [https://leetcode-cn.com/problems/not-boring-movies/](https://leetcode-cn.com/problems/not-boring-movies/)
+- [https://leetcode.com/problems/not-boring-movies/](https://leetcode.com/problems/not-boring-movies/)

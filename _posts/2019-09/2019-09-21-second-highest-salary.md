@@ -1,5 +1,5 @@
 ---
-title: "Second Highest Salary"
+title: "[LeetCode 176] Second Highest Salary"
 published: true
 tags: MySQL
 ---
@@ -40,4 +40,6 @@ SELECT (
 ) AS SecondHighestSalary;
 ```
 
-References: [https://leetcode-cn.com/problems/second-highest-salary/](https://leetcode-cn.com/problems/second-highest-salary/)
+## References
+
+- [https://leetcode.com/problems/second-highest-salary/](https://leetcode.com/problems/second-highest-salary/)

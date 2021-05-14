@@ -1,5 +1,5 @@
 ---
-title: "Swap Salary"
+title: "[LeetCode 627] Swap Salary"
 published: true
 tags: MySQL
 ---
@@ -44,6 +44,6 @@ UPDATE salary
     END;
 ```
 
-References:
+## References
 
-- [https://leetcode-cn.com/problems/swap-salary/](https://leetcode-cn.com/problems/swap-salary/)
+- [https://leetcode.com/problems/swap-salary/](https://leetcode.com/problems/swap-salary/)

@@ -1,5 +1,5 @@
 ---
-title: "Exchange Seats"
+title: "[LeetCode 626] Exchange Seats"
 published: true
 tags: MySQL
 ---
@@ -89,5 +89,5 @@ FROM seat ORDER BY id;
 
 ## References
 
-- [https://leetcode-cn.com/problems/exchange-seats/](https://leetcode-cn.com/problems/exchange-seats/)
+- [https://leetcode.com/problems/exchange-seats/](https://leetcode.com/problems/exchange-seats/)
 - [http://www.mysqltutorial.org/mysql-case-function/](http://www.mysqltutorial.org/mysql-case-function/)

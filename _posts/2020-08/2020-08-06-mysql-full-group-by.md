@@ -4,12 +4,20 @@ published: true
 tags: MySQL
 ---
 
+## Find MySQL configuration files
+
+```
+mysqld --verbose --help | less
+```
+
 ## my.cnf
 
 ```bash
 [mysqld]
 sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
 ```
+
+## MySQL shell
 
 ```mysql
 set global sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';

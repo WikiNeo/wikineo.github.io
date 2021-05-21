@@ -1,13 +1,3 @@
-plugins:
-  - jekyll-octicons
-  - jemoji
-  - jekyll-paginate
-
-paginate: 30
-paginate_path: "/blog/page:num/"
-
-# permalink: /:year/:month/:day/:title/
-
 defaults:
   -
     scope:
@@ -16,3 +6,10 @@ defaults:
     values:
       layout: "post"
 
+plugins:
+  - jekyll-paginate
+  - jekyll-octicons
+  - jekyll-stickyposts
+
+paginate: 30
+paginate_path: "/blog/page:num/"

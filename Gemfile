@@ -1,7 +1,8 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-octicons"
-gem "jemoji"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-gem 'jekyll-paginate'
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'jekyll-octicons'
+    gem 'jekyll-paginate'
+    gem 'jekyll-stickyposts'
+end

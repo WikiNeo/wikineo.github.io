@@ -7,6 +7,7 @@ sticky: true
 ## Backend
 
 #### AWS
+
 - EC2
   - Auto Scaling
   - Load Balancer
@@ -54,6 +55,7 @@ sticky: true
 
 #### Ruby
 
+- Jekyll
 - Rails
 
 #### Typescript

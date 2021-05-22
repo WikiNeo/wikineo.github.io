@@ -74,14 +74,17 @@ sticky: true
 
 #### CSS
 
-- Bootstrap 
+- Bootstrap
 - Sass
 - Tailwind
   
 #### Javascript
 
-- React.js
 - Nest.js
+- React.js
+  - Redux
+  - React Router
+- Vue.js
 
 ## Mathematics
 

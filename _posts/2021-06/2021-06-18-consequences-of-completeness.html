@@ -1,12 +1,62 @@
 ---
-title:  "The Density of Q in R"
+title:  "[Understanding Analysis by Stephen Abbott] - [Chapter 1 The Real Numbers] -
+[1.4 Consequences of Completeness]"
 published: true
 tags: RealAnalysis
 ---
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<p>
+    The first application of the Axiom of Completeness is a result that may look
+    like a more natural way to mathematically express the sentiment that the
+    real line contains no gap.
+</p>
+
+<p>
+    <b>Theorem 1.4.1</b>
+    <b>Nested Interval Property</b> For each \(n \in N\), assume we are given a
+    closed interval \(I_n = [a_n, b_n] = \{x \in R : a_n \leqslant x \leqslant
+    b_n\}\). Assume also that each \(I_n\) contains \(I_{n + 1}\). Then, the
+    resulting nested sequence of closed intervals
+    $$
+    I_1 \supseteq I_2 \supseteq I_3 \supseteq I_4 \supseteq \cdot \cdot \cdot
+    $$
+    has a nonempty intersection; that is, \(\bigcap_{n=1}^\infty I_n \neq \emptyset\)
+</p>
+
+<p>
+
+    <i>Proof.</i> In order to show that \(\bigcap_{n=1}^\infty I_n\) is not
+    empty, we are going to use the Axiom of Completeness (AoC) to produce a
+    single real number \(x\) satisfying \(x \in I_n\) for every \(n \in N\).
+    Now, Aoc is a statement about bounded sets, and the one we want to consider
+    is the set
+    $$
+    A = \{a_n : n \in N\}
+    $$
+    of left-hand endpoints of the intervals.
+</p>
+
+<p>
+
+    Because the intervals are nested, we see that every \(b_n\) servers as an
+    upper bound for \(A\). Thus, we are justified in setting
+    $$
+    x = sup A.
+    $$
+    Now, consider a particular \(I_n = [a_n, b_n]\). Because \(x\) is an upper
+    bound for \(A\), we have \(a_n \leqslant x\). The fact that each \(b_n\) is
+    an upper bound for \(A\) and the \(x\) is the least upper bound implies \(x
+    \leqslant b_n\).
+</p>
+
+<p>
+    Altogether then, we have \(a_n \leqslant x \leqslant b_n\), which means \(x
+    \in I_n\) for every choice of \(n \in N\). Hence, \(\bigcap_{n=1}^\infty
+    I_n\), and the intersection is not empty.
+</p>
 
 <p>
 The set \(Q\) is an extension of \(N\), and \(R\) in turn is an extension of
@@ -126,5 +176,64 @@ The set \(Q\) is an extension of \(N\), and \(R\) in turn is an extension of
 
 
 <p>
-    <b>References</b>: Understanding Analysis By Stephen Abbott
+    <b>Theorem 1.4.5</b>
+    <i>
+        There exists a real number \(a \in R\) satisfying \(\alpha^2 = 2\)
+    </i>
+</p>
+
+<p>
+
+    <i>Proof.</i> Consider the set
+    $$
+    T = \{t \in R : t^2 < 2\}
+    $$
+    and set \(\alpha = sup T\). We are going to prove \(\alpha^2 = 2\) by ruling
+    out the possibilities \(\alpha^2 < 2\) and \(\alpha^2 > 2\). Keep in mind
+    that there are two parts to the definition of \(sup T\), and they will both
+    be important. (This always happens when a supremum is used in an argument.)
+    The strategy is to demonstrate that \(\alpha^2 < 2\) violates the fact that
+    the \(\alpha\) is an upper bound for \(T\), and \(\alpha^2 > 2\) violates
+    the fact that it is the least upper bound.
+</p>
+
+<p>
+    Let's first see what happens if we assume \(\alpha^2 < 2\). In search of an
+    element of \(T\) that is larger than \(\alpha\), write
+    $$
+    \begin{align}
+    (\alpha + \frac{1}{n})^2 &= \alpha^2 + \frac{2\alpha}{n} + \frac{1}{n^2} \\
+    &< \alpha^2 + \frac{2\alpha}{n} + \frac{1}{n} \\
+    &= \alpha^2 + \frac{2\alpha + 1}{n}
+    \end{align}
+    $$
+    But assuming \(\alpha^2 < 2\) gives us a little space in which to fit the
+    \((2\alpha + 1)/n\) term and keep the total less than \(2\). Specifically,
+    chose \(n_0 \in N\) large enough so that
+    $$
+    \frac{1}{n_0} < \frac{2 - \alpha^2}{2\alpha + 1}
+    $$
+    This implies \((2\alpha + 1)/n_0 < 2 - \alpha^2\), and consequently that
+    $$
+    (\alpha + \frac{1}{n_0})^2 < \alpha^2 + (2 - \alpha^2) = 2
+    $$
+    Thus, \(\alpha + 1/n_0 \in T\), contradicting the fact that \(\alpha\) is an
+    upper bound for \(T\). We conclude that \(\alpha^2 < 2\) cannot happen.
+</p>
+
+<p>
+    Now, what about the case \(\alpha^2 > 2\)? We write
+    $$
+    \begin{align}
+    (\alpha - \frac{1}{n})^2 &= \alpha^2 - \frac{2\alpha}{n} + \frac{1}{n^2} \\
+        &> \alpha^2 - \frac{2\alpha}{n}
+    \end{align}
+    $$
+</p>
+
+<p>
+    A small modification of this proof can be made to show that \(\sqrt{x}\)
+    exists for any \(x \leqslant 0\). A formula for expanding \((\alpha +
+    1/n)^m\) called the binomial formula can be used to show that
+    \(\sqrt[m]{x}\) exists for arbitrary values of \(m \in N\)
 </p>

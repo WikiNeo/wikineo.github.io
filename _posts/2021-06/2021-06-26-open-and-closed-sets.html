@@ -1,0 +1,104 @@
+---
+title:  "[Understanding Analysis by Stephen Abbott] - [Chapter 3 Basic Topology
+of R] -
+[3.2 Open and Closed Sets]"
+published: true
+tags: RealAnalysis
+---
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<h2>Open and Closed Sets</h2>
+<p>
+  <b>Definition 3.2.1 (open)</b>. A set \(O \subseteq \mathbb{R}\) is <i>open</i> if
+  for all points \(a \in O\) there exists an \(\epsilon\)-neighborhood
+  \(V_\epsilon (a) \subseteq O\)
+</p>
+<p>
+  <b>Example 3.2.2</b>
+  <ol>
+    <li>
+      Perhaps the simplest example of an open set is \(\mathbb{R}\) itself.
+    </li>
+    <li>
+      Open interval
+      $$
+      (c, d) = {x \in \mathbb{R} : c < x < d}
+      $$
+    </li>
+  </ol>
+</p>
+<p>
+  <b>Theorem 3.2.3</b>
+  <ol>
+    <li>
+      <i>The union of an arbitrary collection of open sets is open.</i>
+    </li>
+    <li>
+      <i>THe intersection of a finite collection of open sets is open</i>
+    </li>
+  </ol>
+</p>
+<p>
+  <b>Definition 3.2.4 (limit point)</b>. A point \(x\) is a <i>limit point</i> of a set \(A\)
+  if every \(\epsilon\)-neighborhood \(V_\epsilon (x)\) of \(x\) intersects the
+  set \(A\) at some point other than \(x\).
+</p>
+<p>
+  <b>Theorem 3.2.5</b>. <i>
+    A point \(x\) is a limit point of a set \(A\) if and only if \(x = \lim
+    a_n\) for some sequence \((a_n)\) contained in \(A\) satisfying \(a_n \neq
+    x\) for all \(n \in \mathbb{N}\)
+  </i>
+</p>
+<p>
+  <b>Definition 3.2.6</b>. A point \(a \in A\)  is an <i>isolated point</i> of
+  \(A\) if it is not a limit point of \(A\)
+</p>
+<p>
+  <b>Definition 3.2.7 (closed)</b> A set \(F \subseteq \mathbb{R}\) is <i>closed</i> if
+  it contains its limit points.
+</p>
+<p>
+  <b>Theorem 3.2.8</b>. <i>
+    A set \(F \subseteq \mathbb{R}\) is closed if and only if every Cauchy
+    sequence contained in \(F\) has a limit that is also an element of \(F\).
+  </i>
+</p>
+<p>
+  <b>Theorem 3.2.10 (Density of \(\mathbb{Q}\) in \(\mathbb{R}\))</b>. <i>
+    For every \(y \in \mathbb{R}\), there exists a sequence of rational numbers
+    that converges to \(y\).
+  </i>
+</p>
+<p>
+    <b>Definition 3.2.11.</b> Given a set \(A \subseteq \mathbb{R}\), let \(L\)
+    be the set of all limit points of \(A\). The <i>closure</i> of \(A\) is
+    defined to be \(\overline{A} = A \cup L\)
+</p>
+<p>
+    <b>Theorem 3.2.12</b>
+    <i>
+        For any \(A \subseteq \mathbb{R}\), the closure \(\overline{A}\) is a
+        closed set and is the smallest closed set containing \(A\).
+    </i>
+</p>
+<p>
+    <b>Theorem 3.2.13</b>
+    <i>
+        A set \(O\) is open if and only if \(O^\complement\) is closed.
+        Likewise, a set \(F\) is closed if and only if \(F^\complement\) is open.
+    </i>
+</p>
+<p>
+    <b>Theorem 3.2.14</b>
+    <ol>
+        <li>
+            <i>The union of a finite collection of closed sets is closed</i>
+        </li>
+        <li>
+            <i>The intersection of an arbitrary collection of closed sets is closed</i>
+        </li>
+    </ol>
+</p>

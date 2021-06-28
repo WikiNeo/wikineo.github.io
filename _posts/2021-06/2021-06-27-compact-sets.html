@@ -1,0 +1,63 @@
+---
+title:  "[Understanding Analysis by Stephen Abbott] - [Chapter 3 Basic Topology
+of R] -
+[3.3 Compact Sets]"
+published: true
+tags: RealAnalysis
+---
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<h2>Compact Sets</h2>
+<p>
+    <b>Definition 3.3.1 (Compactness).</b> A set \(K \subseteq \mathbb{R}\) is
+    <i>compact</i> if every sequence in \(K\) has a subsequence that converges
+    to a limit that is also in \(K\).
+</p>
+<p>
+    <b>Definition 3.3.3</b> A set \(A \subseteq \mathbb{R}\) is <i>bounded</i>
+    if there exists \(M > 0\) such that \(|a| \leqslant M\) for all \(a \in A\)
+</p>
+<p>
+    <b>Theorem 3.3.4 (Characterization of Compactness in R)</b>. <i>
+        A set \(K \subseteq \mathbb{R}\) is compact if and only if it is closed
+        and bounded.
+    </i>
+</p>
+<p>
+    <b>Theorem 3.3.5 (Nested Compact Set Property)</b>. <i> If
+        $$
+        K_1 \supseteq K_2 \supseteq K_3 \supseteq K_4 \supseteq \cdot \cdot \cdot
+        $$
+    is a nested sequence of nonempty compact sets, then the intersection
+    \(\bigcap_{n=1}^\infty K_n\) is not empty
+    </i>
+</p>
+<p>
+  <b>Definition 3.3.6</b> Let \(A \subseteq \mathbb{R}\). An <i>open cover</i>
+  for \(A\) is a (possibly finite) collection of open sets \(\{O_\lambda :
+  \lambda \in \Lambda\}\) whose union contains the set \(A\); that is, \(A
+  \subseteq \bigcup_{\lambda \in \Lambda} O_\lambda\). Given an open cover for
+  \(A\), a <i>finite subcover</i> is a finite subcollection of open sets from
+  the original open cover whose union still manages to completely contain \(A\).
+</p>
+
+<p>
+  <b>Theorem 3.3.8 (Heine-Borel Theorem)</b>. <i>
+    Let \(K\) be a subset of \(\mathbb{R}\). All of the following statements are
+    equivalent in the sense that any one of them implies the two others:
+    <ol>
+      <li>
+        \(K\) is compact
+      </li>
+      <li>
+        \(K\) is closed and bounded
+      </li>
+      <li>
+        Every open cover for \(K\) has a finite subcover.
+      </li>
+    </ol>
+  </i>
+</p>

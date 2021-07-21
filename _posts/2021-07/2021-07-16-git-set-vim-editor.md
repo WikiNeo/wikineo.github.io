@@ -1,7 +1,7 @@
 ---
-title: 'Unblock bluetooth'
+title: 'Change Git Editor to Vim'
 published: true
-tags: Linux
+tags: Git
 ---
 
 ```shell

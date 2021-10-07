@@ -1,5 +1,5 @@
 ---
-title: "Add Two Numbers"
+title: "[LeetCode 2] Add Two Numbers"
 published: true
 tags: Algorithm
 ---

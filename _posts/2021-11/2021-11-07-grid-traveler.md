@@ -34,7 +34,7 @@ const gridTraveler = (m, n) => {
 
 ### Brute Force Complexity
 
-![Grid Traveler](/../../assets/dynamic-programming/grid-traveler-raw.png)
+![Grid Traveler](/../../assets/dynamic-programming/grid-traveler-raw.PNG)
 
 ## Memoization
 
@@ -53,7 +53,7 @@ const gridTravelerMemo = (m, n, memo = {}) => {
 
 ### Memoization Complexity
 
-![Grid Traveler](/../../assets/dynamic-programming/grid-traveler-memo.png)
+![Grid Traveler](/../../assets/dynamic-programming/grid-traveler-memo.PNG)
 
 ## Tabulation
 

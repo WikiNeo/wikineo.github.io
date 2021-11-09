@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 2] Add Two Numbers"
 published: true
-tags: Algorithm
+tags: LinkedList
 ---
 
 ## Problem

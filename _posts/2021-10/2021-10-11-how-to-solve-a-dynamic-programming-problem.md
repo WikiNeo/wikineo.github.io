@@ -1,7 +1,7 @@
 ---
 title: "How to solve a Dynamic Programming Problem ?"
 published: true
-tags: Algorithm
+tags: DynamicProgramming
 ---
 
 Dynamic Programming (DP) is a technique that solves some particular type of

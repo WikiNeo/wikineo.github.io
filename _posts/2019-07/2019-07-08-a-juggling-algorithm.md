@@ -1,7 +1,7 @@
 ---
 title:  "A Juggling Algorithm"
 published: true
-tags: Algorithm
+tags: Array
 ---
 
 A juggling algorithm is to rotate an array of size N in place, with time complexity of O(N) and auxiliary space O(1).

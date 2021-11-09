@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 4] Median of Two Sorted Arrays"
 published: true
-tags: Algorithm
+tags: Array
 ---
 
 ## Problem

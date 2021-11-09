@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 10] Regular Expression Matching"
 published: true
-tags: Algorithm
+tags: DynamicProgramming
 ---
 
 ## Problem

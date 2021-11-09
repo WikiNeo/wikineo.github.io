@@ -1,7 +1,7 @@
 ---
 title:  "Breadth-First Search"
 published: true
-tags: Algorithm
+tags: Graph
 ---
 
 **Breadth-first search (BFS)** is an algorithm for traversing or searching tree or graph

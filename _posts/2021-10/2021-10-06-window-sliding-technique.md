@@ -1,7 +1,7 @@
 ---
 title: "Window Sliding Technique"
 published: true
-tags: Algorithm
+tags: WindowSliding
 ---
 
 ## Introduction

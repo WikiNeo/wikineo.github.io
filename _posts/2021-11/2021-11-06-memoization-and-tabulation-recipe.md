@@ -1,7 +1,7 @@
 ---
 title: "[Dynamic Programming] Memoization & Tabulation Recipe"
 published: true
-tags: Algorithm
+tags: DynamicProgramming
 ---
 
 ## Recursion

@@ -1,7 +1,7 @@
 ---
 title:  "Stack and Heap"
 published: true
-tags: Algorithm
+tags: Linux
 ---
 
 ## What and where are the stack and heap?

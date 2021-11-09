@@ -1,7 +1,7 @@
 ---
 title: "Diameter of a Binary Tree"
 published: true
-tags: Algorithm
+tags: BinaryTree
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 title: "[Dynamic Programming] Grid Traveler"
 published: true
-tags: Algorithm
+tags: DynamicProgramming
 ---
 
 ## Problem

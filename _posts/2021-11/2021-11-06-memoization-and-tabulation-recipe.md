@@ -4,6 +4,11 @@ published: true
 tags: Algorithm
 ---
 
+## Recursion
+
+1. Think of the base case, and what to return in base case
+2. Think how we can reduce the problem size, and use recursion to solve the sub-problem.
+
 ## Memoization
 
 1. Make it work

@@ -1,5 +1,5 @@
 ---
-title: 'Gentoo Mask Package & Downgrade'
+title: '[Gentoo] Mask Package & Downgrade'
 published: true
 tags: Linux
 ---

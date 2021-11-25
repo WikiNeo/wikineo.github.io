@@ -1,5 +1,5 @@
 ---
-title: 'Gentoo Solve Circular Dependency for harfbuzz & freetype'
+title: '[Gentoo] Solve Circular Dependency for harfbuzz & freetype'
 published: true
 tags: Linux
 ---

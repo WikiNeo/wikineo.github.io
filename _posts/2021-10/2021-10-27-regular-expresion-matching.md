@@ -124,6 +124,48 @@ class Solution(object):
         return dp(0, 0)
 ```
 
+```typescript
+function isMatch(s: string, p: string): boolean {
+    // the memo object should be a global one
+    const memo = {};
+
+    // i, j are indexes for s & p
+    const dp = (i, j) => {
+        // make unique string key here
+        const key = i + ',' + j
+
+        // if key is not in memo, update it
+        if(!(key in memo)) {
+            let res;
+
+            // final result
+            // if we are at the pattern end, i should also be at string end for it to match
+            if (j === p.length) {
+                res = i === s.length
+            } else {
+                // check valid i & string match on pattern
+                const firstMatch = i < s.length && [s[i], '.'].includes(p[j])
+
+                // if we have '*', either ignore previous, or count once
+                if(j + 1 < p.length && p[j + 1] === '*') {
+                    res = dp(i, j + 2) || (firstMatch && dp(i + 1, j))
+                } else {
+                    // if we dont have the '*' check firstMatch & remaining
+                    res = firstMatch && dp(i + 1, j + 1);
+                }
+            }
+            memo[key] = res;
+        }
+
+        // return the value with key
+        return memo[key];
+    };
+
+    // let's start at the beginning
+    return dp(0, 0);
+}
+```
+
 #### Bottom-Up
 
 ```python

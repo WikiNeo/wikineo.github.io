@@ -1,7 +1,7 @@
 ---
 title: 'Window.localStorage'
 published: true
-tags: Web
+tags: Frontend
 ---
 
 The read-only `localStorage` property allows you to access a `Storage` object

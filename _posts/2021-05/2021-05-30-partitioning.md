@@ -1,7 +1,7 @@
 ---
-title: 'Partitioning'
+title: '[Filesystem] Partitioning'
 published: true
-tags: Computing
+tags: Filesystem
 ---
 
 From Wikipedia:

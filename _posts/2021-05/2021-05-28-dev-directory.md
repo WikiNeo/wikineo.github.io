@@ -1,7 +1,7 @@
 ---
-title: 'The /dev directory'
+title: '[Filesystem] The /dev directory'
 published: true
-tags: Linux
+tags: Filesystem
 ---
 
 The /dev directory contains the special device files for all the devices. The

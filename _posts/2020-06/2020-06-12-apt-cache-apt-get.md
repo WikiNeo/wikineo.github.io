@@ -1,5 +1,5 @@
 ---
-title: "apt-cache & apt-get"
+title: "[Ubuntu] apt-cache & apt-get"
 published: true
 tags: Linux
 ---

@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 19] Remove Nth Node from End of List"
 published: true
-tags: List
+tags: LinkedList
 ---
 
 ## Problem

@@ -1,5 +1,5 @@
 ---
-title: 'Add PyCharm to launcher in Ubuntu'
+title: '[Ubuntu] Add PyCharm to launcher in Ubuntu'
 published: true
 tags: Linux
 ---

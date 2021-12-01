@@ -1,7 +1,7 @@
 ---
-title: "[LeetCode 21] Remove Nth Node from End of List"
+title: "[LeetCode 21] Merge Two Sorted Lists"
 published: true
-tags: List
+tags: LinkedList
 ---
 
 ## Problem

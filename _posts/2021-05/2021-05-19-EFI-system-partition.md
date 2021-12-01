@@ -1,7 +1,7 @@
 ---
-title: 'EFI system partition'
+title: '[Filesystem] EFI system partition'
 published: true
-tags: Computing
+tags: Filesystem
 ---
 
 The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware. It is mandatory for UEFI boot.

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Go"
-tag: Go
+title: "Tag: Frontend"
+tag: Frontend
 robots: noindex
 ---

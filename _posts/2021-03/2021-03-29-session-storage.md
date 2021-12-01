@@ -1,7 +1,7 @@
 ---
 title: 'Window.sessionStorage'
 published: true
-tags: Web
+tags: Frontend
 ---
 
 The read-only `sessionStorage` property accesses as session `Storage` object for

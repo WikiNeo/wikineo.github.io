@@ -1,5 +1,5 @@
 ---
-title: 'Install LDOCE5 Viewer on Ubuntu'
+title: '[Ubuntu] Install LDOCE5 Viewer on Ubuntu'
 published: true
 tags: Linux
 ---

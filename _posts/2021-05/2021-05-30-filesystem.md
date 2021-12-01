@@ -1,7 +1,7 @@
 ---
-title: 'Filesystem'
+title: '[Filesystem] Filesystem'
 published: true
-tags: Computing
+tags: Filesystem
 ---
 
 In computing, a file system or filesystem controls how data is stored and

@@ -1,5 +1,5 @@
 ---
-title: 'Remove icon from Ubuntu menu'
+title: '[Ubuntu] Remove icon from Ubuntu menu'
 published: true
 tags: Linux
 ---

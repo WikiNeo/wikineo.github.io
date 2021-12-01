@@ -1,5 +1,5 @@
 ---
-title:  "Stack and Heap"
+title:  "[General] Stack and Heap"
 published: true
 tags: Linux
 ---

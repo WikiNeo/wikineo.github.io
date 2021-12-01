@@ -1,7 +1,7 @@
 ---
-title: "How to get the total size of a directory from the command line"
+title: "[Filesystem] How to get the total size of a directory from the command line"
 published: true
-tags: Linux
+tags: Filesystem
 ---
 
 The command `du` "Summarizes disk usage of each FILE, recursively for

@@ -1,7 +1,7 @@
 ---
-title: 'Power-on self-test'
+title: '[Boot] Power-on self-test'
 published: true
-tags: Computing
+tags: Linux
 ---
 
 A power-on self-test (POST) is a process performed by firmware or software routines immediately after a computer or other digital electronic device is powered on.

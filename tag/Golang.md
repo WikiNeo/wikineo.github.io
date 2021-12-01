@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Computing"
-tag: Computing
+title: "Tag: Golang"
+tag: Golang
 robots: noindex
 ---

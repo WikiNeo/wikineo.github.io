@@ -1,5 +1,5 @@
 ---
-title: "ENOSPC: System limit for number of file watchers reached"
+title: "[General] ENOSPC: System limit for number of file watchers reached"
 published: true
 tags: Linux
 ---

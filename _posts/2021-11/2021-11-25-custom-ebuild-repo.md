@@ -1,7 +1,7 @@
 ---
 title: '[Gentoo] Custom ebuild repository'
 published: true
-tags: Linux
+tags: Gentoo
 ---
 
 ## Creating a local repository

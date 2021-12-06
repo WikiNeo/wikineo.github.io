@@ -1,7 +1,7 @@
 ---
 title: '[Gentoo] Mask Package & Downgrade'
 published: true
-tags: Linux
+tags: Gentoo
 ---
 
 ## Problem

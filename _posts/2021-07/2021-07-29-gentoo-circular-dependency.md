@@ -1,7 +1,7 @@
 ---
 title: '[Gentoo] Solve Circular Dependency for harfbuzz & freetype'
 published: true
-tags: Linux
+tags: Gentoo
 ---
 
 Error log

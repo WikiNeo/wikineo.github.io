@@ -1,7 +1,7 @@
 ---
-title: '[LeetCode 28] Remove Duplicates from Sorted Array'
+title: '[LeetCode 28] Implement strStr()'
 published: true
-tags: Array
+tags: TwoPointers
 ---
 
 ## Problem

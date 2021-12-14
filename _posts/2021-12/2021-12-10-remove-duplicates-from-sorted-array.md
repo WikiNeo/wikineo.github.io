@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 26] Remove Duplicates from Sorted Array'
 published: true
-tags: Array
+tags: TwoPointers
 ---
 
 ## Problem

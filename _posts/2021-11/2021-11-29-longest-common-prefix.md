@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 14] Longest Common Prefix"
 published: true
-tags: Array
+tags: TwoPointers
 ---
 
 ## Problem

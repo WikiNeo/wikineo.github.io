@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 7] Reverse Integer"
 published: true
-tags: Array
+tags: StringManipulation
 ---
 
 ## Problem

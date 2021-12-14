@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 22] Generate Parentheses'
 published: true
-tags: Array
+tags: TwoPointers
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 5] Longest Palindromic Substring"
 published: true
-tags: Array
+tags: TwoPointers
 ---
 
 ## Problem

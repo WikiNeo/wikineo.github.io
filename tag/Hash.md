@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Array"
-tag: Array
+title: "Tag: Hash"
+tag: Hash
 robots: noindex
 ---

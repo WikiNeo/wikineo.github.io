@@ -1,7 +1,7 @@
 ---
-title: '[Filesystem] EFI System Partition'
+title: 'EFI System Partition'
 published: true
-tags: Filesystem
+tags: FileSystem
 ---
 
 The EFI system partition (also called ESP) is an OS independent partition that

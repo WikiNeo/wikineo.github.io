@@ -1,7 +1,7 @@
 ---
-title: '[Filesystem] The /run directory'
+title: 'The /run directory'
 published: true
-tags: Filesystem
+tags: FileSystem
 ---
 
 Apparently, many tools (among them udev) will soon require a /run/ directory that is mounted early (as tmpfs). Arch developers introduced /run last month to prepare for this.

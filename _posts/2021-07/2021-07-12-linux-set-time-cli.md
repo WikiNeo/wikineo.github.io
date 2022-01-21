@@ -1,5 +1,5 @@
 ---
-title: '[Time] Linux Set Time using CLI'
+title: 'Linux Set Time using CLI'
 published: true
 tags: Linux
 ---

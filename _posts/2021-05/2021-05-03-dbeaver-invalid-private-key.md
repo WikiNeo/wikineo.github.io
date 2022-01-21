@@ -1,5 +1,5 @@
 ---
-title: '[Database] DBeaver Invalid Private Key'
+title: 'DBeaver Invalid Private Key'
 published: true
 tags: Linux
 ---

@@ -1,5 +1,5 @@
 ---
-title: "[General] Find Process Using A Specific Port"
+title: "Find Process Using A Specific Port"
 published: true
 tags: Linux
 ---

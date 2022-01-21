@@ -1,7 +1,7 @@
 ---
-title: '[Ubuntu] Add PyCharm to launcher in Ubuntu'
+title: 'Add PyCharm to launcher in Ubuntu'
 published: true
-tags: Linux
+tags: Ubuntu
 ---
 
 Create a launcher in text editor

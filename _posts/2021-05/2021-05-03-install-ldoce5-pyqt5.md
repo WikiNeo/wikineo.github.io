@@ -1,7 +1,7 @@
 ---
-title: '[Ubuntu] Install LDOCE5 Viewer on Ubuntu'
+title: 'Install LDOCE5 Viewer on Ubuntu'
 published: true
-tags: Linux
+tags: Ubuntu
 ---
 
 ```shell

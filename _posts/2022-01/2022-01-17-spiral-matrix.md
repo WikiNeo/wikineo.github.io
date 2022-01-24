@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 54] Spiral Matrix'
 published: true
-tags: DoublePointers
+tags: TwoPointers
 ---
 
 ## Problem

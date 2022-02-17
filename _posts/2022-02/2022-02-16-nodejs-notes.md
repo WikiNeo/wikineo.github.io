@@ -48,3 +48,13 @@ for(let key in h) {
 	console.log(h[key])
 }
 ```
+
+## Set
+
+```TypeScript
+let s: Set<string> = new Set<string>()
+
+s.add('s')
+console.log(s.has('s'))
+s.delete('s')
+```

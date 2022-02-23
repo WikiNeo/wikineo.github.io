@@ -1,5 +1,5 @@
 ---
-title: 'Node.js Notes'
+title: 'TypeScript Notes'
 published: true
 tags: Node.js
 ---
@@ -57,4 +57,16 @@ let s: Set<string> = new Set<string>()
 s.add('s')
 console.log(s.has('s'))
 s.delete('s')
+```
+
+## Math
+
+```TypeScript
+Infinity
+```
+
+## Types
+
+```TypeScript
+boolean
 ```

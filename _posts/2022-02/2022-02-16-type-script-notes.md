@@ -13,10 +13,10 @@ let cats: string[] = ['Bob', 'Willy', 'Mini']
 cats.push('cat')
 
 // remove from the end
-cats.pop()
+let cat: string = cats.pop()
 
 // remove from beginning
-cats.shift()
+let cat: string = cats.shift()
 
 //add to beginning
 cats.unshift('cat')

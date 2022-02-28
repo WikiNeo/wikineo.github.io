@@ -5,5 +5,5 @@ tags: Git
 ---
 
 ```bash
-git diff {commit}^!
+git diff --name-only {commit}^!
 ```

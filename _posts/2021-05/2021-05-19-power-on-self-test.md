@@ -1,5 +1,5 @@
 ---
-title: '[Boot] Power-on self-test'
+title: 'Power-on self-test'
 published: true
 tags: Linux
 ---

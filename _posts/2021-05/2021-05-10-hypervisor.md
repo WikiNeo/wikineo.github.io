@@ -1,5 +1,5 @@
 ---
-title: '[Virtualization] Hypervisor'
+title: 'Hypervisor'
 published: true
 tags: Linux
 ---

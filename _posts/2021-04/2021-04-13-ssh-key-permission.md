@@ -1,5 +1,5 @@
 ---
-title: '[SSH] ssh “permissions are too open” error'
+title: 'ssh “permissions are too open” error'
 published: true
 tags: Linux
 ---

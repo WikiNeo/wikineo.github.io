@@ -1,7 +1,7 @@
 ---
-title: '[Ubuntu] Remove icon from Ubuntu menu'
+title: 'Remove icon from Ubuntu menu'
 published: true
-tags: Linux
+tags: Ubuntu
 ---
 
 You can manage the launchers (`*.desktop` files) in one of the following directories

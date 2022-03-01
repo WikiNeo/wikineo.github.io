@@ -1,5 +1,5 @@
 ---
-title: '[Bluetooth] Unblock bluetooth'
+title: 'Unblock bluetooth'
 published: true
 tags: Linux
 ---

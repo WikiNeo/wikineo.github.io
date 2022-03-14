@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 118] Pascal's Triangle'
+title: '[LeetCode 118] Pascals Triangle'
 published: true
 tags: Recursion
 ---

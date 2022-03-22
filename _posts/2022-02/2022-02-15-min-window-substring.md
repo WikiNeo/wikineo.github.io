@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 76] Minimum Window Substring'
 published: true
-tags: WindowSliding
+tags: TwoPointers
 ---
 
 ## Problem

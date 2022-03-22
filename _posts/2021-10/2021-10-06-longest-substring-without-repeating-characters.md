@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode 3] Longest Substring Without Repeating Characters"
 published: true
-tags: WindowSliding
+tags: TwoPointers
 ---
 
 ## Problem

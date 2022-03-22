@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 53] Maximum Subarray'
 published: true
-tags: WindowSliding
+tags: TwoPointers
 ---
 
 ## Problem

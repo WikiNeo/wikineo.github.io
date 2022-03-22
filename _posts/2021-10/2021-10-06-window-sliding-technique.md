@@ -1,7 +1,7 @@
 ---
 title: "Window Sliding Technique"
 published: true
-tags: WindowSliding
+tags: TwoPointers
 ---
 
 ## Introduction

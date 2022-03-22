@@ -4,6 +4,39 @@ published: true
 tags: Node.js
 ---
 
+## Project
+
+### Init
+
+```shell
+yarn init
+yarn add -D typescript
+yarn run tsc --init
+```
+
+### Dev Server
+
+```shell
+yarn add -D ts-node-dev
+"scripts": {
+	"dev": "ts-node-dev --respawn --transpile-only index.ts"
+},
+yarn run dev
+```
+
+### ESlint
+
+```shell
+yarn add eslint --dev
+yarn create @eslint/config
+yarn add -D eslint-config-standard
+yarn add -D @typescript-eslint/eslint-plugin
+"source": true
+yarn add -D @typescript-eslint/parser
+yarn add -D eslint-plugin-import
+yarn add -D eslint-plugin-node
+yarn add -D eslint-plugin-promise
+```
 ## Array
 
 ```TypeScript

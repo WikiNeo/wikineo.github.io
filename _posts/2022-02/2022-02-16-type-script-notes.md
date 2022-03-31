@@ -67,7 +67,7 @@ Array.from(cats)
 ## Hash
 
 ```TypeScript
-let h: [{index: string}: number] = {a: 1, b: 2}
+let h: {[index: string]: number} = {a: 1, b: 2}
 
 // value in hash
 'a' in h

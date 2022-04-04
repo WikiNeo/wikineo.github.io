@@ -31,11 +31,12 @@ yarn add eslint --dev
 yarn create @eslint/config
 yarn add -D eslint-config-standard
 yarn add -D @typescript-eslint/eslint-plugin
-"source": true
 yarn add -D @typescript-eslint/parser
 yarn add -D eslint-plugin-import
 yarn add -D eslint-plugin-node
 yarn add -D eslint-plugin-promise
+
+"root": true
 ```
 ## Array
 

@@ -47,7 +47,7 @@ The following piece of code shows a violation of SRP in which the `Book` class
 is both a representation of an entity and also implements the persistence of
 such entity
 
-```TypeScript
+```typescript
 class Book {
   constructor(private _author: string, private _title: string) {}
 
@@ -69,7 +69,7 @@ By applying Separation of Concerns, we split the `Book` class to have
 representation of the book in a class and the persistence logic in another
 one:
 
-```TypeScript
+```typescript
 class Book {
   constructor(private _author: string, private _title: string) {}
 
@@ -106,7 +106,7 @@ The following snippet shows an `AreaCalculator` class that accumulates the
 areas of different shapes, that will have to be modified every time we add a
 new Shape:
 
-```TypeScript
+```typescript
 class Rectangle {
   constructor(private _width: number, private _height: number) {}
 
@@ -153,7 +153,7 @@ This way we implement a simple method to calculate the sum of the areas. Every
 time we need to add a new shape, it will implement the `Shape` interface and
 we won't have to make any changes on the calculator.
 
-```TypeScript
+```typescript
   area() : number;
 }
 
@@ -200,7 +200,7 @@ problem](http://www.blackwasp.co.uk/SquareRectangle.aspx)**. The `Square`
 class extends the `Rectangle` class and assumes that the width and height are
 equal. When calculating the area of a square, we'd get a wrong value.
 
-```TypeScript
+```typescript
 class Rectangle {
   constructor(private _width: number, private _height: number) {}
 
@@ -215,7 +215,7 @@ class Square extends Rectangle {}
 To solve it, implements a `Shape` interface that will have to be implemented
 by every new shape added.
 
-```TypeScript
+```typescript
 interface Shape {
   area() : number;
 }
@@ -247,7 +247,7 @@ they don't need to usd.** If they do, we'll end up having **not implemented
 methods** in our classes. This can be solved **creating specific interfaces
 instead of general-purpose interfaces**.
 
-```TypeScript
+```typescript
 interface VehicleInterface {
   drive(): string;
   fly(): string;
@@ -286,7 +286,7 @@ class Airplane implements VehicleInterface {
 
 The solution is splitting `VehicleInterface` into specific interfaces
 
-```TypeScript
+```typescript
 interface CarInterface {
   drive() : string;
 }
@@ -328,7 +328,7 @@ This principle states that a class should not depend on another class, but
 instead on an abstraction of that class. It allows loosing-coupling and more
 reusability.
 
-```TypeScript
+```typescript
 class MemoryStorage {
   private storage: any[];
 
@@ -358,7 +358,7 @@ property, thus violating the `Open-Closed Principle`.
 If `PostService` relies on an interface instead of a class, we wouldn't have
 to make changes on it.
 
-```TypeScript
+```typescript
 interface DatabaseStorage {
   insert(record: any): void;
 }

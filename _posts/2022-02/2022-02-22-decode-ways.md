@@ -62,7 +62,7 @@ Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is di
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function numDecodings(s: string): number {
     // table
     const LEN: number = s.length

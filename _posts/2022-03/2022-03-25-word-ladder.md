@@ -44,7 +44,7 @@ Explanation: The endWord "cog" is not in wordList, therefore there is no valid t
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function ladderLength(beginWord: string, endWord: string, wordList: string[]): number {
     // use Set for existence check & unique
     const words = new Set(wordList);

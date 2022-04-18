@@ -38,7 +38,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function maxProfit(prices: number[]): number {
     if(prices.length === 0 || prices.length === 1) {
         return 0;

@@ -52,7 +52,7 @@ Output: []
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for Node.
  * class Node {

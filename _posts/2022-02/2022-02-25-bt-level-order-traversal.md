@@ -38,7 +38,7 @@ Output: []
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for a binary tree node.
  * class TreeNode {

@@ -4,7 +4,7 @@ published: true
 tags: Lodash
 ---
 
-```TypeScript
+```typescript
 _.uniq(array)
 ```
 
@@ -26,7 +26,7 @@ order of result values is determined by the order they occur in the array.
 
 ## Example
 
-```TypeScript
+```typescript
 _.uniq([2, 1, 2]);
 // => [2, 1]
 ```

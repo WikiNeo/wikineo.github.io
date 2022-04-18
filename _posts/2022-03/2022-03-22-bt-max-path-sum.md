@@ -40,7 +40,7 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for a binary tree node.
  * class TreeNode {

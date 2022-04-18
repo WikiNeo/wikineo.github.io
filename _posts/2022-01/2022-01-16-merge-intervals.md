@@ -39,7 +39,7 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function merge(intervals: number[][]): number[][] {
     // sort intervals by starting index
     intervals.sort((a, b) => a[0] - b[0])

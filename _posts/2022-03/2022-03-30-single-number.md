@@ -39,7 +39,7 @@ Output: 1
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function singleNumber(nums: number[]): number {
     let res: number = 0;
     for(let num of nums){

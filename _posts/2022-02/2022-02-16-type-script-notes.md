@@ -40,7 +40,7 @@ yarn add -D eslint-plugin-promise
 ```
 ## Array
 
-```TypeScript
+```typescript
 let cats: string[] = ['Bob', 'Willy', 'Mini']
 
 // add to end
@@ -67,7 +67,7 @@ Array.from(cats)
 
 ## Hash
 
-```TypeScript
+```typescript
 let h: {[index: string]: number} = {a: 1, b: 2}
 
 // value in hash
@@ -85,7 +85,7 @@ for(let key in h) {
 
 ## Set
 
-```TypeScript
+```typescript
 let s: Set<string> = new Set<string>()
 
 s.add('s')
@@ -95,12 +95,12 @@ s.delete('s')
 
 ## Math
 
-```TypeScript
+```typescript
 Infinity
 ```
 
 ## Types
 
-```TypeScript
+```typescript
 boolean
 ```

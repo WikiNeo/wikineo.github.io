@@ -59,7 +59,7 @@ Output: [[3,null],[3,0],[3,null]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for Node.
  * class Node {

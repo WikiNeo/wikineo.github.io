@@ -83,7 +83,9 @@
             </p>
 
             <!-- the post content -->
-            {{ post_body }}
+            <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
+              {{ post_body }}
+            </div>
           </div>
         </div>
       </div>

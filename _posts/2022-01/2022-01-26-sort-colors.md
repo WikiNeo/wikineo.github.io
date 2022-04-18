@@ -40,7 +40,7 @@ Output: [0,1,2]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  Do not return anything, modify nums in-place instead.
  */

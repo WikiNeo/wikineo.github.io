@@ -42,7 +42,7 @@ Output: [[1]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function permute(nums: number[]): number[][] {
     let res: number[][] = [];
 

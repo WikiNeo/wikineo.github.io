@@ -42,7 +42,7 @@ Output: []
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function wordBreak(s: string, wordDict: string[]): string[] {
     const LEN = s.length;
     const table: string[][][] = new Array(LEN + 1).fill([]).map(x => []);

@@ -36,7 +36,7 @@ Explanation: [1,3] and [3,1] are both a height-balanced BSTs.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for a binary tree node.
  * class TreeNode {

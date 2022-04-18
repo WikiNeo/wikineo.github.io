@@ -32,7 +32,7 @@ Output: [["a"]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function partition(s: string): string[][] {
     let res: string[][] = [];
     let part: string[] = [];

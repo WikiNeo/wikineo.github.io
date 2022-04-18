@@ -32,7 +32,7 @@ Output: 9
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function longestConsecutive(nums: number[]): number {
     let result: number = 0;
     const sNum: Set<number> = new Set(nums);

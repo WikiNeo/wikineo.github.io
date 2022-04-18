@@ -55,7 +55,7 @@ Since the largest window of s only has one 'a', return empty string.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function minWindow(s: string, t: string): string {
     // special case
     if(t === "") return "";

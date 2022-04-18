@@ -41,7 +41,7 @@ Output: 23
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function maxSubArray(nums: number[]): number {
     let maxSub: number = nums[0]
     let curSum: number = 0

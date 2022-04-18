@@ -35,7 +35,7 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  Do not return anything, modify matrix in-place instead.
  */

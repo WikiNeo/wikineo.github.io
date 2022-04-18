@@ -32,7 +32,7 @@ Output: [[1]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function generate(numRows: number): number[][] {
     let res: number[][] = [];
     

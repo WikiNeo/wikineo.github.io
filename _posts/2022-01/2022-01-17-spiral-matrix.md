@@ -38,7 +38,7 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function spiralOrder(matrix: number[][]): number[] {
     let left: number = 0, right: number = matrix[0].length;
     let top: number = 0, bottom: number = matrix.length;

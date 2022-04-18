@@ -45,7 +45,7 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function uniquePaths(m: number, n: number): number {
     // entry i, j represents number of ways to move to i, j
     const table: number[][] = Array(m + 1).fill(null).map(x => Array(n + 1).fill(0));

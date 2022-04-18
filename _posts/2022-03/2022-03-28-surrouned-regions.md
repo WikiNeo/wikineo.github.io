@@ -34,7 +34,7 @@ Output: [["X"]]
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  Do not return anything, modify board in-place instead.
  */

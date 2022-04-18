@@ -49,7 +49,7 @@ Explanation: There is no cycle in the linked list.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 /**
  * Definition for singly-linked list.
  * class ListNode {

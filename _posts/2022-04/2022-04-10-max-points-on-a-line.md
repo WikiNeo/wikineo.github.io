@@ -36,7 +36,7 @@ Output: 4
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function maxPoints(points: number[][]): number {
     if(points.length < 3) {
         return points.length;

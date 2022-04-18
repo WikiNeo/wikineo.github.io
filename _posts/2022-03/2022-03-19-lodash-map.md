@@ -4,7 +4,7 @@ published: true
 tags: Lodash
 ---
 
-```TypeScript
+```typescript
 _.map(collection, [iteratee=_.identity])
 ```
 
@@ -24,7 +24,7 @@ Creates an array of values by running each element in `collection` thru
 
 ## Example
 
-```TypeScript
+```typescript
 function square(n) {
   return n * n;
 }

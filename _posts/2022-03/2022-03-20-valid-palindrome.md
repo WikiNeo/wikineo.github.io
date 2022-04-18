@@ -46,7 +46,7 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function isPalindrome(s: string): boolean {
     s = s.toLowerCase().split('').filter(c => ('a' <= c && c <= 'z') || ('0' <= c && c <= '9')).join('')
     if (s.length <= 1) return true;

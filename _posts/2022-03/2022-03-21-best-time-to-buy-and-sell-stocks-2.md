@@ -48,7 +48,7 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function maxProfit(prices: number[]): number {
     const LEN: number = prices.length
     if(LEN === 0 || LEN === 1) return 0;

@@ -53,7 +53,7 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function canCompleteCircuit(gas: number[], cost: number[]): number {
     // the sum of gas should be larger than or equal to the sum of cost
     if(gas.reduce((acc, cur) => acc + cur, 0) < cost.reduce((acc, cur) => acc + cur, 0)){

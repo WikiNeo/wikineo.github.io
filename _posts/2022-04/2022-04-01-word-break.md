@@ -44,7 +44,7 @@ Output: false
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function wordBreak(s: string, wordDict: string[]): boolean {
     const LEN: number = s.length;
     const dp: boolean[] = new Array(LEN + 1).fill(false);

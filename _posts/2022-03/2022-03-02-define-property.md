@@ -8,7 +8,7 @@ The static method `Object.defineProperty()` defines a new property directly on
 an object, or modifies an existing property on an object, and returns the
 object.
 
-```TypeScript
+```typescript
 const object1 = {};
 
 Object.defineProperty(object1, 'property1', {
@@ -25,7 +25,7 @@ console.log(object1.property1);
 
 ## Syntax
 
-```TypeScript
+```typescript
 Object.defineProperty(obj, prop, descriptor)
 ```
 

@@ -39,7 +39,7 @@ Explanation: There are three ways to climb to the top.
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function climbStairs(n: number): number {
     // store number of ways to climb nth stair
     let table: number[] = Array(n + 1).fill(0);

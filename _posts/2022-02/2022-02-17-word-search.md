@@ -43,7 +43,7 @@ Output: false
 
 ## TypeScript
 
-```TypeScript
+```typescript
 function exist(board: string[][], word: string): boolean {
     // it is always good to know the dimension of the 2D board
     const ROW: number = board.length;

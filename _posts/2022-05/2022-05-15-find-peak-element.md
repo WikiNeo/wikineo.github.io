@@ -1,5 +1,5 @@
 ---
-title: 'Find Peak Element'
+title: '[LeetCode 162] Find Peak Element'
 published: true
 tags: BinarySearch
 ---

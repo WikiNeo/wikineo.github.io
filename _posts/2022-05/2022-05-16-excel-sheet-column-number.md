@@ -1,5 +1,5 @@
 ---
-title: 'Excel Sheet Column Number'
+title: '[LeetCode 171] Excel Sheet Column Number'
 published: true
 tags: Others
 ---

@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 73] Set Matrix Zeroes'
 published: true
-tags: Others
+tags: Array
 ---
 
 ## Problem

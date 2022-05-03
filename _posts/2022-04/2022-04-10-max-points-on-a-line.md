@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 149] Max Points on a Line'
 published: true
-tags: Others
+tags: Map
 ---
 
 ## Problem

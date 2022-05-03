@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 136] Single Number'
 published: true
-tags: Others
+tags: Bit
 ---
 
 ## Problem

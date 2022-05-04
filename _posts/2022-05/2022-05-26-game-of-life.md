@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 289] '
+title: '[LeetCode 289] Game of Life'
 published: true
 tags: Array
 ---

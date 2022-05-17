@@ -62,3 +62,7 @@ class CreatePictures < ActiveRecord::Migration[7.0]
   end
 end
 ```
+
+## Reference
+
+- [https://guides.rubyonrails.org/association_basics.html#polymorphic-associations](https://guides.rubyonrails.org/association_basics.html#polymorphic-associations)

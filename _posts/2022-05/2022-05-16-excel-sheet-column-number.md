@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 171] Excel Sheet Column Number'
 published: true
-tags: Others
+tags: Array
 ---
 
 ## Problem

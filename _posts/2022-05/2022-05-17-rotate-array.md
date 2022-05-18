@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 189] Rotate Array'
 published: true
-tags: Others
+tags: Array
 ---
 
 ## Problem

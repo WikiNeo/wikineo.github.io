@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 190] Rotate Array'
+title: '[LeetCode 190] Reverse Bits'
 published: true
 tags: Others
 ---

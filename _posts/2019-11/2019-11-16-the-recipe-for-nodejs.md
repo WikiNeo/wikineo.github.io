@@ -18,7 +18,7 @@ need the following three other components to build the full platform:
 
 The following image represents Node.js final architecture:
 
-![Node.js Architecture](/../../assets/Node.js-Architecture.png)
+![Node.js Architecture](/../../assets/Node.js-Architecture.png){: width="500" }
 
 References:
 

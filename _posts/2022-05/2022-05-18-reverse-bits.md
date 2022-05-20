@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 190] Reverse Bits'
 published: true
-tags: Others
+tags: Array
 ---
 
 ## Problem

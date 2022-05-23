@@ -4,9 +4,19 @@ published: true
 tags: MySQL
 ---
 
+## All Permissions
+
 ```SQL
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
+FLUSH PRIVILEGES;
+```
+
+## Read-only Permissions
+
+```
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT, SHOW VIEW ON *.* TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 

@@ -30,6 +30,12 @@ Output: 9
 - `0 <= nums.length <= 105`
 - `-109 <= nums[i] <= 109`
 
+## Thoughts
+
+- To find the consecutive sequence, we need find the start number
+- The start number should be such that startNumber - 1 doesn't exist in array
+- For existence check, we can use Set
+
 ## TypeScript
 
 ```typescript

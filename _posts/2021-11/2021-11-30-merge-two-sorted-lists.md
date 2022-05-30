@@ -41,60 +41,54 @@ Output: [0]
 - Both list1 and list2 are sorted in non-decreasing order.
 ```
 
+## Thoughts
+
+- Typical merge sort
+- Remember to upate head to next
+
 ## Typescript
 
 ```typescript
-class ListNode {
-    val: number
-    next: ListNode | null
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = (val===undefined ? 0 : val)
-        this.next = (next===undefined ? null : next)
-    }
-}
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
 
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
-    // special case, both empty
-    if(!(list1 || list2)) return list1;
-
-    // final list head, we will modify it
-    let list = new ListNode();
-    // dummy head, it will point list head once
-    const dummy = new ListNode();
-    // flag for the one time only point
-    let flag = true;
-
-    while(list1 || list2) {
-        // if both not empty, point list.next to a new node with the value, and go to next
-        if(list1 && list2) {
-            if(list1.val < list2.val) {
-                list.next = new ListNode(list1.val)
-                list1 = list1.next;
-            } else {
-                list.next = new ListNode(list2.val)
-                list2 = list2.next;
-            }
-        } else if(list1) {
-            // point the non empty list, and go to next
-            list.next = new ListNode(list1.val)
-            list1 = list1.next
+    let head: ListNode = new ListNode();
+    const dummy: ListNode = head;
+    
+    while(list1 && list2){
+        if(list1.val <= list2.val){
+            head.next = new ListNode(list1.val)
+            list1 = list1.next;
         } else {
-            // point the non empty list, and go to next
-            list.next = new ListNode(list2.val)
-            list2 = list2.next
+            head.next = new ListNode(list2.val)
+            list2 = list2.next;
         }
-
-        // if it is the first time, point dummy to head
-        if(flag) {
-            dummy.next = list;
-            flag = false;
-        }
-        // move final list to next
-        list = list.next;
+        head = head.next
     }
-
-    // return final list head
-    return dummy.next.next;
+    
+    while(list1){
+        head.next = new ListNode(list1.val)
+        list1 = list1.next
+        head = head.next
+    }
+    
+    while(list2){
+        head.next = new ListNode(list2.val)
+        list2 = list2.next
+        head = head.next
+    }
+    
+    return dummy.next;
 };
 ```
 

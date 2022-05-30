@@ -1,8 +1,10 @@
 ---
-title: "Reverse Linked List"
+title: "[LeetCode 206] Reverse Linked List"
 published: true
 tags: LinkedList
 ---
+
+## Problem
 
 Reverse a singly linked list.
 
@@ -17,6 +19,41 @@ Output: 5->4->3->2->1->NULL
 2. Use `tempNext` as a temporary storage
 
 ## Code
+
+### TypeScript
+
+```typescript
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
+function reverseList(head: ListNode | null): ListNode | null {
+    if(head === null || head.next === null) {
+        return head;
+    }
+    
+    let left: ListNode = null, right: ListNode = head;
+    
+    while(right !== null){
+        const temp: ListNode = right.next;
+        right.next = left;
+        left = right;
+        right = temp;
+    }
+    
+    return left;
+};
+```
+
+### C++
 
 ```cpp
 /**
@@ -47,4 +84,4 @@ public:
 
 References:
 
-- [https://leetcode-cn.com/problems/reverse-linked-list/](https://leetcode-cn.com/problems/reverse-linked-list/)
+- [https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)

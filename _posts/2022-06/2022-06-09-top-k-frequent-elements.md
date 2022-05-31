@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 347] Top K Freuquent Elements'
+title: '[LeetCode 347] Top K Frequent Elements'
 published: true
 tags: Hash
 ---

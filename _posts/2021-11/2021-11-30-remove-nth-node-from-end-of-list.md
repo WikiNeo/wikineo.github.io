@@ -38,6 +38,13 @@ Output: [1]
 - 1 <= n <= sz
 ```
 
+## Thoughts
+
+- With a dummy node, we can make the distance between left & right pointer to
+  be `n + 1`
+- We move right pointer to the end of list, left pointer will be before the
+  node we want to delete.
+
 ## Typescript
 
 ```typescript

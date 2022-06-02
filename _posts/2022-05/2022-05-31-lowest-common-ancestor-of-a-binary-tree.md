@@ -45,6 +45,7 @@ Output: 1
 
 ## Thoughts
 
+- The node where it splits is the LCA
 - DFS left, right
 
 ## TypeScript

@@ -36,6 +36,10 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 - -231 <= Node.val <= 231 - 1
 ```
 
+## Thoughts
+
+- Each node should satisfy its left & right boundary
+
 ## TypeScript
 
 ```typescript

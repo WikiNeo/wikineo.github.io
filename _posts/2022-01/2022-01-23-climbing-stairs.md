@@ -39,6 +39,31 @@ Explanation: There are three ways to climb to the top.
 
 ## TypeScript
 
+### Top Down
+
+```typescript
+function climbStairs(n: number): number {
+    // how many ways to climb to step
+    const stepToCount: Map<number, number> = new Map<number, number>();
+    
+    const climb = (step: number): number => {
+        if(step === 0 || step === 1) return 1;
+        if(stepToCount.has(step)) return stepToCount.get(step)
+        
+        const step1: number = climb(step - 1)
+        const step2: number = climb(step - 2)
+        if(!stepToCount.has(step - 1)) stepToCount.set(step - 1, step1)
+        if(!stepToCount.has(step - 2)) stepToCount.set(step - 2, step2)
+        
+        return step1 + step2
+    }
+    
+    return climb(n)
+};
+```
+
+### Bottom Up
+
 ```typescript
 function climbStairs(n: number): number {
     // store number of ways to climb nth stair

@@ -1,5 +1,5 @@
 ---
-title: 'Self Joins'
+title: '[Rails] Self Joins'
 published: true
 tags: Ruby
 ---

@@ -47,6 +47,11 @@ Explanation: There is no cycle in the linked list.
  
 #### Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
+## Thoughts
+
+- We can have two pointers, slow & fast, slow moves by 1 node, fast moves by 2 nodes
+- If they meet at the same node, there is a cycle.
+
 ## TypeScript
 
 ```typescript

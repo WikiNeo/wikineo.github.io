@@ -1,5 +1,5 @@
 ---
-title: 'Eager Loading Associations'
+title: '[Rails] Eager Loading Associations'
 published: true
 tags: Ruby
 ---

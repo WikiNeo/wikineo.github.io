@@ -1,5 +1,5 @@
 ---
-title: 'Single Table Inheritance'
+title: '[Rails] Single Table Inheritance'
 published: true
 tags: Ruby
 ---

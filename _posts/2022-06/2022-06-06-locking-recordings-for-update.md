@@ -1,5 +1,5 @@
 ---
-title: 'Locking Records for Update'
+title: '[Rails] Locking Records for Update'
 published: true
 tags: Ruby
 ---

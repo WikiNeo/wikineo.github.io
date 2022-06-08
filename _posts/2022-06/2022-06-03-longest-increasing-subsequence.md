@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 00] Longest Increasing Subsequence'
+title: '[LeetCode 300] Longest Increasing Subsequence'
 published: true
 tags: DynamicProgramming
 ---

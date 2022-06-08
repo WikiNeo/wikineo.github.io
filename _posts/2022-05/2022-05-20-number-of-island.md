@@ -43,7 +43,8 @@ Output: 3
 
 ## Thoughts
 
-- 2D Array DFS
+- 2D Array DFS, returns true when we finished visiting an island and increase count by 1
+- Boundary, water & visited for base case return
 
 ## TypeScript
 

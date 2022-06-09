@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 268] Missing NUmber'
+title: '[LeetCode 268] Missing Number'
 published: true
 tags: Array
 ---

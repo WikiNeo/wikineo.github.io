@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Jquery"
-tag: Jquery
+title: "Tag: Hash"
+tag: Hash
 robots: noindex
 ---

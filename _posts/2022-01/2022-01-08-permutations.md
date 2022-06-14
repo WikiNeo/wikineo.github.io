@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 46] Permutations'
 published: true
-tags: Recursion
+tags: Backtracking
 ---
 
 ## Problem

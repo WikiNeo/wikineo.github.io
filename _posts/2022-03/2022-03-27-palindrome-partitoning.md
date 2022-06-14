@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 131] Palindrome Partitioning'
 published: true
-tags: Recursion
+tags: Backtracking
 ---
 
 ## Problem

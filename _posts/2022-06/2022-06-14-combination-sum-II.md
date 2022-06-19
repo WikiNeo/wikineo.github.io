@@ -1,5 +1,5 @@
 ---
-title: '[LeetCode 40] Combination Sum'
+title: '[LeetCode 40] Combination Sum II'
 published: true
 tags: Backtracking
 ---

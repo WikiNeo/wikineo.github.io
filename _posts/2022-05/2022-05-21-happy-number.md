@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 202] Happy Number'
 published: true
-tags: Others
+tags: Array
 ---
 
 ## Problem

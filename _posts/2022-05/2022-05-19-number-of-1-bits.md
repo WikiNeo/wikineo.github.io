@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 191] Number of 1 Bits'
 published: true
-tags: Others
+tags: Bit
 ---
 
 ## Problem

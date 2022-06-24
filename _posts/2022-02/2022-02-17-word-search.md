@@ -41,6 +41,11 @@ Output: false
 - board and word consists of only lowercase and uppercase English letters.
 ```
 
+## Thoughts
+
+- As the data is a 2D array, we can use DFS to 2D array
+- We can keep the index of the word we are checking and compare it with the board value
+
 ## TypeScript
 
 ```typescript
@@ -82,6 +87,7 @@ function exist(board: string[][], word: string): boolean {
     return false;
 };
 ```
+
 
 ## Reference
 

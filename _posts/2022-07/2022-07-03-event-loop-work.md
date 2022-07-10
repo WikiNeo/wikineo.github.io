@@ -113,7 +113,6 @@ callbacks of `setImmediate()` and close event callbacks are called. The next
 tick starts with the timers. This cycle repeats as long as there is code that
 needs to be executed.
 
-
 ## Reference
 
 - [https://heynode.com/tutorial/how-event-loop-works-nodejs/](https://heynode.com/tutorial/how-event-loop-works-nodejs/)

@@ -37,8 +37,11 @@ Output: [[1]]
 
 ## Thoughts
 
-- We can use backtracking for this
-- We can do it recursively
+- If `nums` only has one element, we can just return the result
+- If `nums` has more than one element, we can remove first element, find
+  permutations of the remaining elements, add the removed element back, then
+  we have one result.
+  - We need do above operation n times.
 
 ## TypeScript
 

@@ -57,7 +57,12 @@ RESTful web services support caching, which is the process of storing some respo
 
 ### Code on demand
 
-In REST architectural style, servers can temporarily extend or customize client functionality by transferring software programming code to the client.
+In REST architectural style, servers can temporarily extend or customize
+client functionality by transferring software programming code to the client.
+For example, when you fill a registration form on any website, your browser
+immediately highlights any mistakes you make, such as incorrect phone numbers.
+It can do this because of the code sent by the server.
+
 
 ## Reference
 

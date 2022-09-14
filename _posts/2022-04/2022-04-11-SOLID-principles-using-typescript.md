@@ -154,6 +154,7 @@ time we need to add a new shape, it will implement the `Shape` interface and
 we won't have to make any changes on the calculator.
 
 ```typescript
+interface Shape {
   area() : number;
 }
 
@@ -243,7 +244,7 @@ class Square implements Shape {
 interface.*
 
 This principle stats that classes **should never implement interfaces that
-they don't need to usd.** If they do, we'll end up having **not implemented
+they don't need to use.** If they do, we'll end up having **not implemented
 methods** in our classes. This can be solved **creating specific interfaces
 instead of general-purpose interfaces**.
 

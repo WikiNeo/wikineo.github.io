@@ -217,7 +217,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.3)
-    nokogiri (1.13.8)
+    nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     octicons (17.5.0)
@@ -257,7 +257,6 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.6.0)
 
@@ -269,7 +268,6 @@ DEPENDENCIES
   jekyll-octicons
   jekyll-paginate
   jekyll-stickyposts
-  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH

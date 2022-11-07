@@ -1,6 +1,11 @@
 <!-- 
     This is the page for left tags list
  -->
+<div class="mx-auto" style="max-width: 900px;">
+    <input type="search" id="search-input" placeholder="search...">
+    <ul id="results-container"></ul>
+</div>
+
 <h2>Tags</h2>
 
 <!-- 
@@ -37,11 +42,6 @@
         <a href="/tag/{{ tagname }}">{{ tagname }} ({{tagsize}})</a>
     </li>
 {% endfor %}
-
-<div class="mx-auto" style="max-width: 900px;">
-    <input type="search" id="search-input" placeholder="search...">
-    <ul id="results-container"></ul>
-</div>
 
 <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
 <script>

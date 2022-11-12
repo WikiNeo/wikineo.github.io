@@ -1,7 +1,7 @@
 ---
 title: "Smoke Testing"
 published: true
-tags: Testing
+tags: SoftwareEngineering
 ---
 
 Smoke testing, also known as "Build Verification Testing", is a type of software

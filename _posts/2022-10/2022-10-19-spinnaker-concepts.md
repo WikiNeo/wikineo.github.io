@@ -1,7 +1,7 @@
 ---
 title: 'Spinnaker Concepts'
 published: true
-tags: CI/CD
+tags: CI&CD
 ---
 
 Spinnaker is an open-source, multi-cloud continuous delivery platform that

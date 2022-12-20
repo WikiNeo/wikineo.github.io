@@ -1,5 +1,5 @@
 ---
-title: 'mysqldump throws: Unknown table 'COLUMN_STATISTICS' in information_schema (1109)'
+title: "mysqldump throws: Unknown table 'COLUMN_STATISTICS' in information_schema (1109)"
 published: true
 tags: MySQL
 ---

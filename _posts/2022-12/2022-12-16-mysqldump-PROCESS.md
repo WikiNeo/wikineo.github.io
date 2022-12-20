@@ -1,5 +1,5 @@
 ---
-title: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces'
+title: "Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces"
 published: true
 tags: MySQL
 ---

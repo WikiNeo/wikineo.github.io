@@ -27,4 +27,4 @@ instance hostname types in the Amazon EC2 User Guide for Linux Instances.
 
 ## Reference
 
-- [https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
+- [https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html#subnet-settings](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html#subnet-settings)

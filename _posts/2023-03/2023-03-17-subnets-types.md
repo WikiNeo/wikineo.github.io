@@ -40,4 +40,4 @@ For more information about private IP addressing in VPCs, see IP addressing.
 
 ## Reference
 
-- [https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html)
+- [https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html#subnet-types](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html#subnet-types)

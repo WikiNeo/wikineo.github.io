@@ -1,13 +1,17 @@
 # Blogs
 
+## Setup
+
+```shell
+brew install rbenv
+rbenv install
+
+```
+
 ## Start
 
 ```bash
 bundle exec jekyll serve
-
-OR
-
-docker-compose up
 ```
 
 ## Generate Tags

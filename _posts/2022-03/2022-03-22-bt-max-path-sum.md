@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 124] Binary Tree Maximum Path Sum'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

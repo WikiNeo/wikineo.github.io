@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 94] Binary Tree Inorder Traversal'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

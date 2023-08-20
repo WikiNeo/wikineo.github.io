@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 108] Convert Sorted Array to Binary Search Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

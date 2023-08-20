@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 103] Binary Tree Zigzag Level Order Traversal'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

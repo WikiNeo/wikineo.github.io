@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 98] Validate Binary Search Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

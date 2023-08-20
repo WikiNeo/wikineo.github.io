@@ -1,7 +1,7 @@
 ---
 title: "[Tree] Max Root to Leaf Sum"
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

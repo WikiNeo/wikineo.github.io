@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 230] Kth Smallest Element in a BST'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 title:  "Maximum Depth of Binary Tree"
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 The maximum depth is the number of nodes along the longest path from the root node down to

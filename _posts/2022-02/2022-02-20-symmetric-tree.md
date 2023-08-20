@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 101] Symmetric Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

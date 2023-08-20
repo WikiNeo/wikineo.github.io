@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 104] Maximum Depth of Binary Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 572] Subtree of Another Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

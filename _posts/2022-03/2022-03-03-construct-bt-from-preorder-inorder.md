@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 105] Construct Binary Tree from Preorder and Inorder Traversal'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 title: "[Tree] Tree Includes"
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

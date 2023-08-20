@@ -1,7 +1,7 @@
 ---
 title: "Construct Binary Tree from Preorder and Inorder Traversal"
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 Given preorder and inorder traversal of a tree, construct the binary tree.

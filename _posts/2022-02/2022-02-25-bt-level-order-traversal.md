@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 102] Binary Tree Level Order Traversal'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

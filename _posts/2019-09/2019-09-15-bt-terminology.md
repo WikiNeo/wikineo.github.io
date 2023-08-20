@@ -1,7 +1,7 @@
 ---
 title:  "Binary Trees Terminology"
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 - **leaves**: nodes with no children.

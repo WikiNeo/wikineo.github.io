@@ -1,7 +1,7 @@
 ---
 title: '[LeetCode 236] Lowest Common Ancestor of a Binary Tree'
 published: true
-tags: BinaryTree
+tags: Tree
 ---
 
 ## Problem

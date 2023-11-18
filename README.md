@@ -2,10 +2,21 @@
 
 ## Setup
 
+### MacOS
+
 ```shell
 brew install rbenv
 rbenv install
+bundle install
+```
 
+### NixOS
+
+
+```shell
+nix-shell -p gcc zlib openssl
+rbenv install
+bundle install
 ```
 
 ## Start

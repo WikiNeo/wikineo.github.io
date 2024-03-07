@@ -1,7 +1,7 @@
 ---
 title: 'What is Apigee Policy?'
 published: true
-tags: API
+tags: Apigee
 ---
 
 Apigee enables you to program API behavior without writing any code, by using policies. A policy is like a module that implements a specific, limited management function. Policies are designed to let you add common types of management capabilities to an API easily and reliably. Policies provide features like security, rate-limiting, transformation, and mediation capabilities, saving you from having to code and maintain this functionality on your own.

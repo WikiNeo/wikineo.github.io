@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: API"
-tag: API
+title: "Tag: Apigee"
+tag: Apigee
 robots: noindex
 ---

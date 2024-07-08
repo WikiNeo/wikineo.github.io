@@ -1,7 +1,7 @@
 ---
 title: 'Vim: delete empty lines within a visual selected area'
 published: true
-tags: Vim
+tags: Neovim
 ---
 
 ```

@@ -41,4 +41,4 @@ SELECT Email FROM Person GROUP BY Email HAVING COUNT(Email) > 1;
 ## References
 
 - [https://leetcode.com/problems/duplicate-emails](https://leetcode.com/problems/duplicate-emails)
-- [http://www.mysqltutorial.org/mysql-group-by.aspx](http://www.mysqltutorial.org/mysql-group-by.aspx)
+- [https://www.mysqltutorial.org/mysql-group-by.aspx](https://www.mysqltutorial.org/mysql-group-by.aspx)

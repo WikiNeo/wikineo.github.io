@@ -205,7 +205,7 @@ std::move(x)
 
 is declared as an rvalue reference and does not have a name. Hence, it is an rvalue. Thus, std::move "turns its argument into an rvalue even if it isn't," and it achieves that by "hiding the name."
 
-For a good example, read it [here](http://thbecker.net/articles/rvalue_references/section_05.html).
+For a good example, read it [here](https://thbecker.net/articles/rvalue_references/section_05.html).
 
 ### Move Semantics and Compiler Optimizations
 
@@ -292,4 +292,4 @@ Reference collapsing rules
 
 ### References
 
-- [C++ Rvalue References Explained](http://thbecker.net/articles/rvalue_references/section_01.html)
+- [C++ Rvalue References Explained](https://thbecker.net/articles/rvalue_references/section_01.html)

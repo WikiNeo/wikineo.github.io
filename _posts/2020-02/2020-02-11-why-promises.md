@@ -60,7 +60,7 @@ in synchronous code.
 You can also use promises to improve code that was written with callbacks:
 
 ```javascript
-//Copyright Plato http://stackoverflow.com/a/19385911/995876
+//Copyright Plato https://stackoverflow.com/a/19385911/995876
 //CC BY-SA 2.5
 mapSeries(URLs, function (URL, done) {
     var options = {};
@@ -118,4 +118,4 @@ Promise.map(URLs, function (URL) {
 
 ## References
 
-- [http://bluebirdjs.com/docs/why-promises.html](http://bluebirdjs.com/docs/why-promises.html)
+- [https://bluebirdjs.com/docs/why-promises.html](https://bluebirdjs.com/docs/why-promises.html)

@@ -45,7 +45,7 @@ XHR
 
 ```javascript
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "http://example.com/", true);
+xhr.open("GET", "https://example.com/", true);
 xhr.withCredentials = true;
 xhr.send(null);
 

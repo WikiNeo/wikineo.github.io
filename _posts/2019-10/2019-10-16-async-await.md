@@ -97,7 +97,7 @@ We can catch that error using `try..catch`.
 async function f() {
 
   try {
-    let response = await fetch('http://no-such-url');
+    let response = await fetch('https://no-such-url');
   } catch(err) {
     alert(err); // TypeError: failed to fetch
   }
@@ -111,7 +111,7 @@ function `f()` becomes rejected. We can append `.catch` to handle it
 
 ```javascript
 async function f() {
-  let response = await fetch('http://no-such-url');
+  let response = await fetch('https://no-such-url');
 }
 
 // f() becomes a rejected promise

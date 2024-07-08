@@ -90,4 +90,4 @@ FROM seat ORDER BY id;
 ## References
 
 - [https://leetcode.com/problems/exchange-seats/](https://leetcode.com/problems/exchange-seats/)
-- [http://www.mysqltutorial.org/mysql-case-function/](http://www.mysqltutorial.org/mysql-case-function/)
+- [https://www.mysqltutorial.org/mysql-case-function/](https://www.mysqltutorial.org/mysql-case-function/)

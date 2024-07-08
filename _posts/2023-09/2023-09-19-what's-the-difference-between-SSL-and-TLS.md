@@ -52,7 +52,7 @@ Before it connects with a website, your browser uses TLS to check the
 website’s TLS or SSL certificate. TLS and SSL certificates show that a server
 adheres to the current security standards. You can find evidence about the
 certificate within the browser address bar. An authentic and encrypted
-connection displays https:// instead of http://. The additional s stands for
+connection displays https:// instead of https://. The additional s stands for
 secure. 
 
 ## Key differences: SSL vs. TLS

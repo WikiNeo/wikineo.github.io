@@ -328,4 +328,4 @@ typedef basic_teebuf<char> teebuf;
 
 ## References
 
-- [http://wordaligned.org/articles/cpp-streambufs#toctee-streams](http://wordaligned.org/articles/cpp-streambufs#toctee-streams)
+- [https://wordaligned.org/articles/cpp-streambufs#toctee-streams](https://wordaligned.org/articles/cpp-streambufs#toctee-streams)

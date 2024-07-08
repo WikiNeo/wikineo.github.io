@@ -47,7 +47,7 @@ server {
         listen 80;
         server_name your-domain;
         location / {
-            proxy_pass         http://127.0.0.1:9000;
+            proxy_pass         https://127.0.0.1:9000;
             proxy_redirect     off;
             proxy_set_header   Host $host;
             proxy_set_header   X-Real-IP $remote_addr;

@@ -114,16 +114,16 @@ Total space accounted for: 13.3 M
 sudo apt-get update
 
 [sudo] password for tecmint: 
-Ign http://security.ubuntu.com quantal-security InRelease                      
-Get:1 http://security.ubuntu.com quantal-security Release.gpg [933 B]          
-Get:2 http://security.ubuntu.com quantal-security Release [49.6 kB]            
-Ign http://in.archive.ubuntu.com quantal InRelease                             
-Ign http://in.archive.ubuntu.com quantal-updates InRelease                     
-Get:3 http://repo.varnish-cache.org precise InRelease [13.7 kB]                
-Ign http://in.archive.ubuntu.com quantal-backports InRelease                   
-Hit http://in.archive.ubuntu.com quantal Release.gpg                           
-Get:4 http://security.ubuntu.com quantal-security/main Sources [34.8 kB]       
-Get:5 http://in.archive.ubuntu.com quantal-updates Release.gpg [933 B]         
+Ign https://security.ubuntu.com quantal-security InRelease                      
+Get:1 https://security.ubuntu.com quantal-security Release.gpg [933 B]          
+Get:2 https://security.ubuntu.com quantal-security Release [49.6 kB]            
+Ign https://in.archive.ubuntu.com quantal InRelease                             
+Ign https://in.archive.ubuntu.com quantal-updates InRelease                     
+Get:3 https://repo.varnish-cache.org precise InRelease [13.7 kB]                
+Ign https://in.archive.ubuntu.com quantal-backports InRelease                   
+Hit https://in.archive.ubuntu.com quantal Release.gpg                           
+Get:4 https://security.ubuntu.com quantal-security/main Sources [34.8 kB]       
+Get:5 https://in.archive.ubuntu.com quantal-updates Release.gpg [933 B]         
 ...
 ```
 
@@ -160,8 +160,8 @@ The following NEW packages will be installed:
 Need to get 67.1 kB of archives.
 After this operation, 186 kB of additional disk space will be used.
 Do you want to continue [Y/n]? y
-Get:1 http://in.archive.ubuntu.com/ubuntu/ quantal/universe netcat-traditional i386 1.10-40 [63.8 kB]
-Get:2 http://in.archive.ubuntu.com/ubuntu/ quantal/universe netcat all 1.10-40 [3,340 B]
+Get:1 https://in.archive.ubuntu.com/ubuntu/ quantal/universe netcat-traditional i386 1.10-40 [63.8 kB]
+Get:2 https://in.archive.ubuntu.com/ubuntu/ quantal/universe netcat all 1.10-40 [3,340 B]
 Fetched 67.1 kB in 1s (37.5 kB/s)
 Selecting previously unselected package netcat-traditional.
 (Reading database ... 216118 files and directories currently installed.)
@@ -283,9 +283,9 @@ Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 Need to get 220 kB of source archives.
-Get:1 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (dsc) [1,883 B]
-Get:2 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (tar) [188 kB]
-Get:3 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (diff) [30.5 kB]
+Get:1 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (dsc) [1,883 B]
+Get:2 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (tar) [188 kB]
+Get:3 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (diff) [30.5 kB]
 Fetched 220 kB in 4s (49.1 kB/s)
 Download complete and in download only mode
 ```
@@ -299,9 +299,9 @@ Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 Need to get 220 kB of source archives.
-Get:1 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (dsc) [1,883 B]
-Get:2 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (tar) [188 kB]
-Get:3 http://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (diff) [30.5 kB]
+Get:1 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (dsc) [1,883 B]
+Get:2 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (tar) [188 kB]
+Get:3 https://in.archive.ubuntu.com/ubuntu/ quantal/main vsftpd 2.3.5-3ubuntu1 (diff) [30.5 kB]
 Fetched 220 kB in 1s (112 kB/s)  
 gpgv: Signature made Thursday 24 May 2012 02:35:09 AM IST using RSA key ID 2C48EE4E
 gpgv: Can't check signature: public key not found
@@ -334,9 +334,9 @@ Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 Need to get 130 kB of source archives.
-Get:1 http://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (dsc) [1,120 B]
-Get:2 http://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (tar) [127 kB]
-Get:3 http://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (diff) [2,075 B]
+Get:1 https://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (dsc) [1,120 B]
+Get:2 https://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (tar) [127 kB]
+Get:3 https://in.archive.ubuntu.com/ubuntu/ quantal/universe goaccess 1:0.5-1 (diff) [2,075 B]
 Fetched 130 kB in 1s (68.0 kB/s)
 gpgv: Signature made Tuesday 26 June 2012 09:38:24 AM IST using DSA key ID A9FD4821
 gpgv: Can't check signature: public key not found
@@ -409,11 +409,11 @@ The following NEW packages will be installed:
 Need to get 1,219 kB of archives.
 After this operation, 2,592 kB of additional disk space will be used.
 Do you want to continue [Y/n]? y
-Get:1 http://in.archive.ubuntu.com/ubuntu/ quantal/main html2text i386 1.3.2a-15build1 [91.4 kB]
-Get:2 http://in.archive.ubuntu.com/ubuntu/ quantal/main po-debconf all 1.0.16+nmu2ubuntu1 [210 kB]
-Get:3 http://in.archive.ubuntu.com/ubuntu/ quantal/main dh-apparmor all 2.8.0-0ubuntu5 [9,846 B]
-Get:4 http://in.archive.ubuntu.com/ubuntu/ quantal/main debhelper all 9.20120608ubuntu1 [623 kB]
-Get:5 http://in.archive.ubuntu.com/ubuntu/ quantal/main quilt all 0.60-2 [285 kB]
+Get:1 https://in.archive.ubuntu.com/ubuntu/ quantal/main html2text i386 1.3.2a-15build1 [91.4 kB]
+Get:2 https://in.archive.ubuntu.com/ubuntu/ quantal/main po-debconf all 1.0.16+nmu2ubuntu1 [210 kB]
+Get:3 https://in.archive.ubuntu.com/ubuntu/ quantal/main dh-apparmor all 2.8.0-0ubuntu5 [9,846 B]
+Get:4 https://in.archive.ubuntu.com/ubuntu/ quantal/main debhelper all 9.20120608ubuntu1 [623 kB]
+Get:5 https://in.archive.ubuntu.com/ubuntu/ quantal/main quilt all 0.60-2 [285 kB]
 Fetched 1,219 kB in 4s (285 kB/s)
 ...
 ```

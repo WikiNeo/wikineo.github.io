@@ -197,7 +197,7 @@ This principle states that objects must be **replaceable by instances of their
 subtypes without altering the correct functioning of the system**.
 
 A classic example of a violation of this principle is the **[Rectangle-Square
-problem](http://www.blackwasp.co.uk/SquareRectangle.aspx)**. The `Square`
+problem](https://www.blackwasp.co.uk/SquareRectangle.aspx)**. The `Square`
 class extends the `Rectangle` class and assumes that the width and height are
 equal. When calculating the area of a square, we'd get a wrong value.
 

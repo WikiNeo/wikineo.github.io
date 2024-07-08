@@ -346,4 +346,4 @@ We could conceivably ditch the pointer too by having parallel arrays for the hot
 components. Then we can find the cold AI data for a component since both pieces will be at
 the same index in their respective arrays.
 
-References: [http://gameprogrammingpatterns.com/data-locality.html](http://gameprogrammingpatterns.com/data-locality.html)
+References: [https://gameprogrammingpatterns.com/data-locality.html](https://gameprogrammingpatterns.com/data-locality.html)

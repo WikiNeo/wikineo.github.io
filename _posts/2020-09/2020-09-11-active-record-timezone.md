@@ -7,7 +7,7 @@ tags: Ruby
 > In `application.rb`, `config.active_record.default_timezone` determines whether
 > to use `Time.local` (if set to `:local`) or `Time.utc` (if set to `:utc`) when
 > pulling dates and times from the database. The default is `:utc`.
-> http://guides.rubyonrails.org/configuring.html
+> https://guides.rubyonrails.org/configuring.html
 
 ---------------------------------------
 If you want to change Rails timezone, but continues to have Active Record to

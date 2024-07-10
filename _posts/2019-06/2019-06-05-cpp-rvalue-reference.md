@@ -1,15 +1,15 @@
 ---
-title:  "C++ Rvalue References"
+title: "C++ Rvalue References"
 published: true
 tags: C++
 ---
 
 ### Definition of lvalue and rvalue
 
-- An *lvalue* is an expression that refers to a memory location and allows us to take the address of that
-memory location via the & operation.
+- An _lvalue_ is an expression that refers to a memory location and allows us to take the address of that
+  memory location via the & operation.
 
-- An *rvalue* is an expression that is not an lvalue.
+- An _rvalue_ is an expression that is not an lvalue.
 
 ```cpp
   // lvalues:
@@ -42,7 +42,7 @@ X& X::operator=(X const & rhs)
 {
   // [...]
   // Make a clone of what rhs.m_pResource refers to.
-  // Destruct the resource that m_pResource refers to. 
+  // Destruct the resource that m_pResource refers to.
   // Attach the clone to m_pResource.
   // [...]
 }
@@ -62,9 +62,9 @@ The last line above
 - destructs the resource held by x and replaces it with the clone,
 - destructs the temporary and thereby releases its resource.
 
-Rather obviously, it would be ok, and much more efficient, to swap resource pointers (handles) between x and 
-the temporary, and then let the temporary's destructor destruct x's original resource. In other words, in the 
-special case where the right hand side of the assignment is an rvalue, we want the copy assignment operator 
+Rather obviously, it would be ok, and much more efficient, to swap resource pointers (handles) between x and
+the temporary, and then let the temporary's destructor destruct x's original resource. In other words, in the
+special case where the right hand side of the assignment is an rvalue, we want the copy assignment operator
 to act like this:
 
 ```cpp
@@ -72,20 +72,19 @@ X& X::operator=(<mystery type> rhs)
 {
   // [...]
   // swap this->m_pResource and rhs.m_pResource
-  // [...]  
+  // [...]
 }
 ```
 
-This is called *move semantics*.
+This is called _move semantics_.
 
 ### Rvalue references
 
-
-If X is any type, then X&& is called an rvalue reference to X. For better distinction, the ordinary 
+If X is any type, then X&& is called an rvalue reference to X. For better distinction, the ordinary
 reference X& is now also called an lvalue reference.
 
-An rvalue reference is a type that behaves much like the ordinary reference X&, with several exceptions. 
-The most important one is that when it comes to function overload resolution, lvalues prefer old-style lvalue 
+An rvalue reference is a type that behaves much like the ordinary reference X&, with several exceptions.
+The most important one is that when it comes to function overload resolution, lvalues prefer old-style lvalue
 references, whereas rvalues prefer the new rvalue references:
 
 ```cpp
@@ -100,22 +99,22 @@ foo(foobar()); // argument is rvalue: calls foo(X&&)
 
 ```
 
-> Rvalue references allow a function to branch at compile time (via overload resolution) on the condition 
+> Rvalue references allow a function to branch at compile time (via overload resolution) on the condition
 > "Am I being called on an lvalue or an rvalue?"
 
 ### Forcing Move Semantics
 
 Using std::move wherever we can, as shown in the swap function above, gives us the following important benefits:
 
-- For those types that implement move semantics, many standard algorithms and operations will use move 
-semantics and thus experience a potentially significant performance gain. An important example is inplace '
-sorting: inplace sorting algorithms do hardly anything else but swap elements, and this swapping will now 
-take advantage of move semantics for all types that provide it.
+- For those types that implement move semantics, many standard algorithms and operations will use move
+  semantics and thus experience a potentially significant performance gain. An important example is inplace '
+  sorting: inplace sorting algorithms do hardly anything else but swap elements, and this swapping will now
+  take advantage of move semantics for all types that provide it.
 
-- The STL often requires copyability of certain types, e.g., types that can be used as container elements. 
-Upon close inspection, it turns out that in many cases, moveability is enough. Therefore, we can now use 
-types that are moveable but not copyable (unique_pointer comes to mind) in many places where previously, 
-they were not allowed. For example, these types can now be used as STL container elements.
+- The STL often requires copyability of certain types, e.g., types that can be used as container elements.
+  Upon close inspection, it turns out that in many cases, moveability is enough. Therefore, we can now use
+  types that are moveable but not copyable (unique_pointer comes to mind) in many places where previously,
+  they were not allowed. For example, these types can now be used as STL container elements.
 
 Consider a simple assignment between variables, like this:
 
@@ -123,11 +122,11 @@ Consider a simple assignment between variables, like this:
 a = b;
 ```
 
-What do you expect to happen here? You expect the object held by a to be replaced by a copy of b, and in 
+What do you expect to happen here? You expect the object held by a to be replaced by a copy of b, and in
 the course of this replacement, you expect the object formerly held by a to be destructed. Now consider the line
 
 ```cpp
-a = std::move(b); 
+a = std::move(b);
 ```
 
 If move semantics are implemented as a simple swap, then the effect of this is that the objects held by a and b are being exchanged between a and b. Nothing is being destructed yet. The object formerly held by a will of course be destructed eventually, namely, when b goes out of scope. Unless, of course, b becomes the target of a move, in which case the object formerly held by a gets passed on again. Therefore, as far as the implementer of the copy assignment operator is concerned, it is not known when the object formerly held by a will be destructed.
@@ -143,7 +142,7 @@ X& X::operator=(X&& rhs)
   // in a destructible and assignable state.
 
   // Move semantics: exchange content between this and rhs
-  
+
   return *this;
 }
 ```
@@ -233,33 +232,33 @@ X foo()
 
 Unfortunately, that would make things worse rather than better. Any modern compiler will apply return value optimization to the original function definition. In other words, rather than constructing an X locally and then copying it out, the compiler would construct the X object directly at the location of foo's return value. Rather obviously, that's even better than move semantics.
 
-
 ### Perfect Forwarding: The problem
 
 Consider the following simple factory function:
 
 ```cpp
-template<typename T, typename Arg> 
+template<typename T, typename Arg>
 shared_ptr<T> factory(Arg arg)
-{ 
+{
   return shared_ptr<T>(new T(arg));
-} 
+}
 ```
 
-obviously, the intent here is to forward the argument arg from the factory function to T's constructor. 
+obviously, the intent here is to forward the argument arg from the factory function to T's constructor.
 Ideally, as far as arg is concerned, everything should behave just as if the factory function weren't there and the constructor were called directly in the client code: perfect forwarding. The code above fails miserably at that: it introduces an extra call by value, which is particularly bad if the constructor takes its argument by reference.
 
 The most common solution, chosen e.g. by boost::bind, is to let the outer function take the argument by reference:
 
 ```cpp
-template<typename T, typename Arg> 
+template<typename T, typename Arg>
 shared_ptr<T> factory(Arg& arg)
-{ 
+{
   return shared_ptr<T>(new T(arg));
-} 
+}
 ```
 
-That's better, but not perfect. The problem is that now, the factory function cannot be called on rvalues:
+That's better, but not perfect. The problem is that now, the factory function
+cannot be called on rvalues:
 
 ```cpp
 factory<X>(hoo()); // error if hoo returns by value
@@ -269,14 +268,17 @@ factory<X>(41); // error
 This can be fixed by providing an overload which takes its argument by const reference:
 
 ```cpp
-template<typename T, typename Arg> 
+template<typename T, typename Arg>
 shared_ptr<T> factory(Arg const & arg)
-{ 
+{
   return shared_ptr<T>(new T(arg));
-} 
+}
 ```
 
-There are two problems with this approach. Firstly, if factory had not one, but several arguments, you would have to provide overloads for all combinations of non-const and const reference for the various arguments. Thus, the solution scales extremely poorly to functions with several arguments.
+There are two problems with this approach. Firstly, if factory had not one, but
+several arguments, you would have to provide overloads for all combinations of
+non-const and const reference for the various arguments. Thus, the solution
+scales extremely poorly to functions with several arguments.
 
 Secondly, this kind of forwarding is less than perfect because it blocks out move semantics: the argument of the constructor of T in the body of factory is an lvalue. Therefore, move semantics can never happen even if it would without the wrapping function.
 
@@ -288,7 +290,6 @@ Reference collapsing rules
 - A& && becomes A&
 - A&& & becomes A&
 - A&& && becomes A&&
-
 
 ### References
 

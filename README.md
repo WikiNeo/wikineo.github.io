@@ -7,6 +7,7 @@
 ```shell
 brew install rbenv
 rbenv install
+rbenv init
 bundle install
 ```
 

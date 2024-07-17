@@ -18,10 +18,11 @@ As network address translation modifies the IP address information in packets,
 NAT implementations may vary in their specific behavior in various addressing
 cases and their effect on network traffic. The specifics of NAT behavior are
 not commonly documented by vendors of equipment containing NAT
-implementations.[2]
+implementations.
 
-![NAT](../../assets/NAT_Concept-en.svg.png)
+![NAT](../../assets/NAT_Concept-en.png)
 
 ## Reference
 
 - [https://en.wikipedia.org/wiki/Network_address_translation](https://en.wikipedia.org/wiki/Network_address_translation)
+

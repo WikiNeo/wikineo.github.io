@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Neovim"
-tag: Neovim
+title: "Tag: NeoVim"
+tag: NeoVim
 robots: noindex
 ---

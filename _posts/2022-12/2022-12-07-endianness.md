@@ -1,7 +1,7 @@
 ---
-title: 'Endianness'
+title: "Endianness"
 published: true
-tags: Bit
+tags: SoftwareEngineering
 ---
 
 In computing, endianness is the order or sequence of bytes of a word of
@@ -22,3 +22,4 @@ first. Bit-endianness is seldom used in other contexts.
 ## Reference
 
 - [https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness)
+

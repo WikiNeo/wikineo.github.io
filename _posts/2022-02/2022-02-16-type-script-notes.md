@@ -1,7 +1,7 @@
 ---
-title: 'TypeScript Notes'
+title: "TypeScript Notes"
 published: true
-tags: Node.js
+tags: TypeScript
 ---
 
 ## Project
@@ -38,69 +38,71 @@ yarn add -D eslint-plugin-promise
 
 "root": true
 ```
+
 ## Array
 
 ```typescript
-let cats: string[] = ['Bob', 'Willy', 'Mini']
+let cats: string[] = ["Bob", "Willy", "Mini"];
 
 // add to end
-cats.push('cat')
+cats.push("cat");
 
 // remove from the end
-let cat: string = cats.pop()
+let cat: string = cats.pop();
 
 // remove from beginning
-let cat: string = cats.shift()
+let cat: string = cats.shift();
 
 //add to beginning
-cats.unshift('cat')
+cats.unshift("cat");
 
-// loop 
-for(let cat of cats){
-	console.log(cat)
+// loop
+for (let cat of cats) {
+  console.log(cat);
 }
 
 // clone
-[...cats]
-Array.from(cats)
+[...cats];
+Array.from(cats);
 ```
 
 ## Hash
 
 ```typescript
-let h: {[index: string]: number} = {a: 1, b: 2}
+let h: { [index: string]: number } = { a: 1, b: 2 };
 
 // value in hash
-'a' in h
+"a" in h;
 
 // number of keys
-Object.keys(h).length
+Object.keys(h).length;
 
 // loop
-for(let key in h) {
-	console.log(key)
-	console.log(h[key])
+for (let key in h) {
+  console.log(key);
+  console.log(h[key]);
 }
 ```
 
 ## Set
 
 ```typescript
-let s: Set<string> = new Set<string>()
+let s: Set<string> = new Set<string>();
 
-s.add('s')
-console.log(s.has('s'))
-s.delete('s')
+s.add("s");
+console.log(s.has("s"));
+s.delete("s");
 ```
 
 ## Math
 
 ```typescript
-Infinity
+Infinity;
 ```
 
 ## Types
 
 ```typescript
-boolean
+boolean;
 ```
+

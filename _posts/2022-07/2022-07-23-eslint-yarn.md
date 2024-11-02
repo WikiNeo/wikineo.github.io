@@ -1,7 +1,7 @@
 ---
-title: 'ESLint with Yarn for TypeScript project'
+title: "ESLint with Yarn for TypeScript project"
 published: true
-tags: Node.js
+tags: TypeScript
 ---
 
 ESlint init only uses `npm` to install the dependencies, to use yarn, do
